@@ -27,3 +27,8 @@ new Swiper('#store .swiper', {
   slidesPerView: 7,
   spaceBetween: 5,
 })
+
+
+// 올해년도 구하기
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear();

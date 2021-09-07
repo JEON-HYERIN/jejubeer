@@ -397,12 +397,8 @@ em {
 
 /* STORE */
 #store {
-  padding-top: var(--spacing-large);
+  padding: var(--spacing-large) 0;
   background-color: var(--color-white);
-}
-
-#store .inner {
-  height: 275px;
 }
 
 #store .store__description {
@@ -417,7 +413,8 @@ em {
 
 /* FOOTER */
 #footer {
-
+  background-color: var(--color-white);
+  padding: var(--spacing-large) 0;
 }
 
 #footer .inner .top {
@@ -464,4 +461,23 @@ em {
 
 #footer .top .links li img {
   width: 100%;
+}
+
+#footer .bottom .info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-medium);
+}
+
+#footer .bottom .info span {
+  font-size: var(--font-medium);
+  color: var(--color-light-gray);
+  font-weight: var(--weight-regular);
+  line-height: 1.8em;
+}
+
+#footer .bottom .copyright small {
+  font-size: var(--font-micro);
+  color: var(--color-light-gray);
+  font-weight: var(--weight-bold);
 }
