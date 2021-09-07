@@ -443,10 +443,7 @@ em {
 
 #footer .top .links {
   display: flex;
-}
-
-#footer .top .links li {
-  
+  align-items: center;
 }
 
 #footer .top .links li:first-child a {
