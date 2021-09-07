@@ -53,6 +53,7 @@ li {
 
 img {
   max-width: 300px;
+  display: block;
 }
 
 h1,
@@ -174,4 +175,35 @@ address {
 /* VIDEO */
 #video video {
   width: 100%;
+}
+
+#video .video__title {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video .video__title img {
+  max-width: none;
+  width: 790px;
+}
+
+/* YOUTUBE */
+#youtube {
+  background-image: url("../img/youtube_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#youtube .inner {
+  height: 1050px;
+}
+
+#youtube #player {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
