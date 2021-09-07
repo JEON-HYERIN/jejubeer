@@ -52,7 +52,7 @@ li {
 }
 
 img {
-  max-width: 300px;
+  width: 300px;
   display: block;
 }
 
@@ -70,9 +70,78 @@ address {
   font-style: normal;
 }
 
+em {
+  font-weight: 700;
+}
+
 .hide {
   position: absolute;
   left: -5000px;
+}
+
+/* SWIPER */
+.swiper.visual-swiper {
+  width: 1000px;
+  height: 615px;
+  position: relative;
+}
+
+.swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper .swiper-prev,
+.swiper .swiper-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.swiper.visual-swiper .swiper-prev,
+.swiper.visual-swiper .swiper-next {
+  width: 60px;
+  height: 60px;
+}
+
+.swiper .swiper-prev {
+  left: 20px;
+}
+
+.swiper .swiper-next {
+  right: 20px;
+}
+
+.swiper.visual-swiper .swiper-prev span,
+.swiper.visual-swiper .swiper-next span {
+  font-size: 60px;
+  color: var(--color-white);
+}
+
+.swiper.sub-swiper {
+  width: 1000px;
+  position: relative;
+  min-height: 216px;
+  height: 216px;
+}
+
+.swiper.sub-swiper .swiper-slide {
+  padding: 7px 5px 5px 0;
+}
+
+.swiper.sub-swiper .swiper-prev,
+.swiper.sub-swiper .swiper-next {
+  width: 30px;
+  height: 30px;
+}
+
+.swiper.sub-swiper .swiper-prev span,
+.swiper.sub-swiper .swiper-next span {
+  font-size: 30px;
+  color: var(--color-white);
 }
 
 /* INNER */
@@ -85,13 +154,13 @@ address {
 /* HEADER */
 #header {
   background-color: var(--color-white);
+  padding: var(--spacing-regular) 0;
 }
 
 #header .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: var(--spacing-regular) 0;
 }
 
 #header h1 {
@@ -207,3 +276,55 @@ address {
   left: 50%;
   transform: translateX(-50%);
 }
+
+
+/* JEJU WIT ALE  */
+#wit {
+  background-image: url("../img/witale_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+#wit .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#wit .wit__title {
+  height: 110px;
+  margin-bottom: 75px;
+}
+
+#wit .wit__title img {
+  height: 100%;
+  width: auto;
+}
+
+#wit .wit__description {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#wit .wit__description img {
+  height: 309px;
+}
+
+#wit .wit__description .text {
+  width: 500px;
+  height: 116px;
+  box-sizing: border-box;
+}
+
+#wit .wit__description .text,
+#pellong .pellong__description .text,
+#geomeong .geomeong__description .text {
+  margin-left: 40px;
+  font-size: var(--font-large);
+  color: var(--color-white);
+  font-weight: 400;
+}
+
