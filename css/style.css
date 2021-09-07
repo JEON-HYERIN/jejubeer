@@ -287,10 +287,13 @@ em {
   padding: 50px 0;
 }
 
-#wit .inner {
+#wit .inner,
+#pellong .inner,
+#geomeong .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 1450px;
 }
 
 #wit .wit__title {
@@ -303,10 +306,12 @@ em {
   width: auto;
 }
 
-#wit .wit__description {
+#wit .wit__description,
+#pellong .pellong__description,
+#geomeong .geomeong__description {
   display: flex;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: calc(var(--spacing-micro) * 2);
 }
 
 #wit .wit__description img {
@@ -322,9 +327,36 @@ em {
 #wit .wit__description .text,
 #pellong .pellong__description .text,
 #geomeong .geomeong__description .text {
-  margin-left: 40px;
+  padding-left: 40px;
   font-size: var(--font-large);
   color: var(--color-white);
   font-weight: 400;
 }
 
+/* JEJU PELLONG ALE */
+#pellong {
+  background-image: url("../img/pellongale_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+#pellong .pellong__title {
+  width: 400px;
+  margin-bottom: 75px;
+}
+
+#pellong .pellong__title img {
+  width: 100%;
+}
+
+#pellong .pellong__description img {
+  width: auto;
+  height: 279px;
+}
+
+#pellong .pellong__description .text {
+  width: 660px;
+  height: 128px;
+}
