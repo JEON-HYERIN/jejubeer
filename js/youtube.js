@@ -18,7 +18,6 @@ function onYouTubePlayerAPIReady() {
       autoplay: true, // 자동 재생 유무
       loop: true, // 반복 재생 유무
       playlist: 'gWXdzlIQ-YE', // 반복 재생할 유튜브 영상 ID 목록
-      host: 'https://www.youtube.com',
     },
     events: {
       // 영상이 준비되었을 때,
