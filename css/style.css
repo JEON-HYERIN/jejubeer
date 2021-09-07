@@ -7,3 +7,17 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+.hide {
+  position: absolute;
+  left: -5000px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#video video {
+  width: 100%;
+}
