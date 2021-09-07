@@ -9,9 +9,9 @@ new Swiper('.swiper.visual-swiper', {
 
 new Swiper('.swiper.sub-swiper', {
   loop: true,
-  // autoplay: {
-  //   delay: 5000
-  // },
+  autoplay: {
+    delay: 5000
+  },
   slidesPerView: 3.5,
   // spaceBetween: 5,
   centeredSlides: true,
@@ -20,3 +20,10 @@ new Swiper('.swiper.sub-swiper', {
     nextEl: '.swiper-next'
   }
 });
+
+new Swiper('#store .swiper', {
+  loop: true,
+  autoplay: true,
+  slidesPerView: 7,
+  spaceBetween: 5,
+})

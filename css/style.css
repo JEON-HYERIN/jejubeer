@@ -18,7 +18,8 @@
 
   /* Font weight */
   --weight-bold: 700;
-  --weight-regular: 500;
+  --weight-semi-bold: 500;
+  --weight-regular: 400;
 
   /* Space */
   --spacing-large: 50px;
@@ -39,7 +40,7 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: var(--font-normal);
-  font-weight: var(--weight-regular);
+  font-weight: var(--weight-semi-bold);
 }
 
 a {
@@ -70,7 +71,7 @@ address {
 }
 
 em {
-  font-weight: 700;
+  font-weight: var(--weight-bold);
 }
 
 .hide {
@@ -153,13 +154,13 @@ em {
 /* HEADER */
 #header {
   background-color: var(--color-white);
-  padding: var(--spacing-regular) 0;
 }
 
 #header .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: var(--spacing-regular) 0;
 }
 
 #header h1 {
@@ -223,7 +224,7 @@ em {
   font-size: var(--font-small);
   color: var(--color-gray);
   transition: var(--transition-duration);
-  font-weight: var(--weight-regular);
+  font-weight: var(--weight-semi-bold);
 }
 
 #header nav ul.sub-menu li a:hover {
@@ -283,7 +284,7 @@ em {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 50px 0;
+  padding: var(--spacing-large) 0;
 }
 
 #wit .inner {
@@ -332,7 +333,7 @@ em {
   padding-left: 40px;
   font-size: var(--font-large);
   color: var(--color-white);
-  font-weight: 400;
+  font-weight: var(--weight-regular);
 }
 
 /* JEJU PELLONG ALE */
@@ -341,7 +342,7 @@ em {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 50px 0;
+  padding: var(--spacing-large) 0;
 }
 
 #pellong .inner {
@@ -373,7 +374,7 @@ em {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 50px 0;
+  padding: var(--spacing-large) 0;
 }
 
 #geomeong .inner {
@@ -392,4 +393,24 @@ em {
 #geomeong .geomeong__description .text {
   width: 560px;
   height: 96px;
+}
+
+/* STORE */
+#store {
+  padding: var(--spacing-large) 0;
+  background-color: var(--color-white);
+}
+
+#store .inner {
+  height: 275px;
+}
+
+#store .store__description {
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: var(--spacing-regular);
+  text-align: center;
+  color: var(--color-blue);
+  font-size: var(--font-large);
+  font-weight: var(--weight-regular);
 }
