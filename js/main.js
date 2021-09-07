@@ -32,3 +32,21 @@ new Swiper('#store .swiper', {
 // 올해년도 구하기
 const thisYear = document.querySelector('.this-year');
 thisYear.textContent = new Date().getFullYear();
+
+// 상단버튼
+const header = document.querySelector('#header');
+const video = document.querySelector('#video');
+const videoHeight = video.getBoundingClientRect().height;
+const topBtn = document.querySelector('.top-btn');
+
+window.addEventListener('scroll', () => {
+  if(window.scrollY > videoHeight / 2) {
+    topBtn.classList.remove('hidden');
+  } else {
+    topBtn.classList.add('hidden');
+  }
+});
+
+topBtn.addEventListener('click', () => {
+  header.scrollIntoView({behavior: "smooth"});
+});

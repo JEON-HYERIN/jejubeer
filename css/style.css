@@ -497,10 +497,25 @@ em {
   background-color: transparent;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 
 .floating-btns li:first-child {
   margin-top: 0;
+}
+
+.floating-btns li.top-btn {
+  width: 60px;
+  height: 60px;
+}
+
+.floating-btns li.top-btn img {
+  width: 100%;
+  height: 100%;
+}
+
+.floating-btns li.top-btn.hidden {
+  display: none;
 }
 
 .floating-btns li a {
