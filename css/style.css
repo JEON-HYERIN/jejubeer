@@ -242,20 +242,21 @@ em {
 }
 
 /* VIDEO */
+#video {
+  position: relative;
+}
+
 #video video {
   width: 100%;
 }
 
 #video .video__title {
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 790px;
+  margin: 0 auto;
 }
 
 #video .video__title img {
-  max-width: none;
-  width: 790px;
+  width: 100%;
 }
 
 /* YOUTUBE */
