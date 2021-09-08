@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+small {
+  font-size: 1em;
+  line-height: normal;
+}
+
+em,
+address {
+  font-style: normal;
+}
+
+em {
+  font-weight: var(--weight-bold);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hide {
+  position: absolute;
+  left: -5000px;
+}
