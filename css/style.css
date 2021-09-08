@@ -38,6 +38,16 @@ body {
   font-weight: var(--weight-semi-bold);
 }
 
+/* 키보드로 버튼에 포커스 시 */
+button:focus-visible {
+  outline: 3px solid #000;
+}
+
+/* 마우스, 터치로 버튼에 포커스 시 */
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
 /* SWIPER */
 .swiper.visual-swiper {
   width: 1000px;
@@ -191,7 +201,6 @@ body {
 }
 
 #header nav a.btn {
-  display: block;
   padding: 4px calc(var(--spacing-micro) * 2);
   margin-left: 5px;
   font-size: var(--font-regular);
@@ -445,7 +454,6 @@ body {
 }
 
 .floating-btns li button {
-  display: block;
   width: 60px;
   height: 60px;
 }
@@ -454,3 +462,55 @@ body {
   width: 100%;
   height: 100%;
 }
+
+/* share */
+.share {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.8);
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.share.hidden {
+  display: none;
+}
+
+.share .share__title {
+  font-size: 19px;
+  color: var(--color-white);
+  margin-bottom: 21px;
+}
+
+.share .share__links {
+  display: flex;
+}
+
+.share .share__links li {
+  overflow: hidden;
+  margin-left: 40px;
+}
+
+.share .share__links li:first-child {
+  margin-left: 0;
+}
+
+.share .share__links li .btn {
+  width: 80px;
+  height: 80px;
+  background-color: var(--color-blue);
+  border-radius: 50%;
+}
+
+.share .share__links li .btn img {
+  width: 100%;
+  height: 100%;
+}
+
+

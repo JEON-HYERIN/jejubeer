@@ -34,7 +34,8 @@ em {
   font-weight: var(--weight-bold);
 }
 
-button {
+button, .btn {
+  display: block;
   border: none;
   background-color: transparent;
   cursor: pointer;
