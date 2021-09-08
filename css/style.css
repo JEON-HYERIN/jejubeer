@@ -279,109 +279,101 @@ em {
 }
 
 
-/* JEJU WIT ALE  */
-#wit {
-  background-image: url("../img/witale_bg.png");
+/* PRODUCTS */
+#products .product {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-#wit .inner,
-#pellong .inner,
-#geomeong .inner {
+#products .product .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: var(--spacing-regular) 0 calc(var(--spacing-large) * 3) 0;
 }
 
-#wit .wit__title {
-  height: 110px;
-  margin-bottom: 75px;
-}
-
-#wit .wit__title img {
-  height: 100%;
-  width: auto;
-}
-
-#wit .wit__description,
-#pellong .pellong__description,
-#geomeong .geomeong__description {
+#products .product .description {
   display: flex;
   align-items: center;
   padding-bottom: calc(var(--spacing-micro) * 2);
 }
 
-#wit .wit__description img {
-  height: 309px;
-}
-
-#wit .wit__description .text {
-  width: 500px;
-  height: 116px;
-  box-sizing: border-box;
-}
-
-#wit .wit__description .text,
-#pellong .pellong__description .text,
-#geomeong .geomeong__description .text {
+#products .product .description .text {
   padding-left: 40px;
   font-size: var(--font-large);
   color: var(--color-white);
   font-weight: var(--weight-regular);
 }
 
-/* JEJU PELLONG ALE */
-#pellong {
-  background-image: url("../img/pellongale_bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+/* jeju wit ale */
+#products .wit {
+  background-image: url("../img/witale_bg.png");
 }
 
-#pellong .pellong__title {
+#products .wit .wit__title {
+  height: 110px;
+  margin-bottom: 75px;
+}
+
+#products .wit .wit__title img {
+  height: 100%;
+  width: auto;
+}
+
+#products .wit .wit__description img {
+  height: 309px;
+}
+
+#products .wit .wit__description .text {
+  width: 500px;
+  height: 116px;
+  box-sizing: border-box;
+}
+
+/* jeju pellong ale */
+#products .pellong {
+  background-image: url("../img/pellongale_bg.png");
+}
+
+#products .pellong .pellong__title {
   width: 400px;
   margin-bottom: 75px;
 }
 
-#pellong .pellong__title img {
+#products .pellong .pellong__title img {
   width: 100%;
 }
 
-#pellong .pellong__description img {
+#products .pellong .pellong__description img {
   width: auto;
   height: 279px;
 }
 
-#pellong .pellong__description .text {
+#products .pellong .pellong__description .text {
   width: 660px;
   height: 128px;
 }
 
-/* JEJU GEOMEONG ALE */
-#geomeong {
+/* jeju geomeong ale */
+#products .geomeong {
   background-image: url("../img/geomeongale_bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
-#geomeong .inner {
+#products .geomeong .inner {
   padding-bottom: 50px;
 }
 
-#geomeong .geomeong__title {
+#products .geomeong .geomeong__title {
   width: 400px;
   margin-bottom: 75px;
 }
 
-#geomeong .geomeong__title img {
+#products .geomeong .geomeong__title img {
   width: 100%;
 }
 
-#geomeong .geomeong__description .text {
+#products .geomeong .geomeong__description .text {
   width: 560px;
   height: 96px;
 }
@@ -470,7 +462,7 @@ em {
   font-weight: var(--weight-bold);
 }
 
-/* FLOATING ACTION BUTTON */
+/* floating action button */
 .floating-btns {
   width: 60px;
   position: fixed;

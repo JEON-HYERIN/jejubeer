@@ -1,0 +1,240 @@
+ <!-- JEJU WIT ALE -->
+  <section id="wit">
+    <h3 class="hide">JEJU WIT ALE</h3>
+    <div class="inner">
+
+      <div class="wit__title">
+        <img src="./img/witale_title.png" alt="제주 위트 에일" class="title" />
+      </div>
+      <div class="wit__description">
+        <img src="./img/witale_img.png" alt="제주 위트 에일 이미지" class="product" />
+        <div class="text">
+          <em>제주 위트 에일</em>은 제주 감귤 껍질의 상큼함과 섬세한 꽃 향,
+          입 안 가득 부드럽게 퍼지는 시트러스향이 만나
+          산뜻한 끝 맛을 선사하는 밀맥주입니다.
+        </div>
+      </div>
+
+      <div class="swiper visual-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/first_slide0.png" alt="이미지 슬라이드1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/first_slide1.jpg" alt="이미지 슬라이드2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/first_slide2.jpg" alt="이미지 슬라이드3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/first_slide3.jpg" alt="이미지 슬라이드4" />
+          </div>
+        </div>
+        <div class="swiper-prev">
+          <span class="material-icons">
+            arrow_back_ios
+            </span>
+        </div>
+        <div class="swiper-next">
+          <span class="material-icons">
+            arrow_forward_ios
+            </span>
+            
+        </div>
+      </div>
+
+      <div class="swiper sub-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/first_0.png" alt="서브 이미지 슬라이드 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/first_1.jpg" alt="서브 이미지 슬라이드 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/first_2.jpg" alt="서브 이미지 슬라이드 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/first_3.jpg" alt="서브 이미지 슬라이드 4" />
+          </div>
+        </div>
+        <div class="swiper-prev">
+          <span class="material-icons">
+            arrow_back_ios
+          </span>
+        </div>
+        <div class="swiper-next">
+          <span class="material-icons">
+            arrow_forward_ios
+          </span>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- JEJU PELLONG ALE -->
+  <section id="pellong">
+    <h3 class="hide">JEJU PELLONG ALE</h3>
+    <div class="inner">
+
+      <div class="pellong__title">
+        <img src="./img/pellongale_title.png" alt="제주 펠롱 에일" class="title" />
+      </div>
+      <div class="pellong__description">
+        <img src="./img/pellongale_img.png" alt="제주 펠롱 에일 이미지" class="product" />
+        <div class="text">
+          <em>제주 펠롱 에일</em>은 반딧불이 반짝이는 곶자왈에서 영감을 받아 탄생하였습니다.
+          다양하고 개성있는 홉들을 블렌딩하여
+          시트러스 아로마와 진한 맥아의 맛이 어우러져
+          풍부한 풍미를 선사하는 페일에일 맥주입니다.
+        </div>
+      </div>
+      <div class="swiper visual-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/second_slide0.png" alt="이미지 슬라이드1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_slide1.jpg" alt="이미지 슬라이드2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_slide2.jpg" alt="이미지 슬라이드3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_slide3.jpg" alt="이미지 슬라이드4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_slide4.jpg" alt="이미지 슬라이드5" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_slide5.jpg" alt="이미지 슬라이드6" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_slide6.jpg" alt="이미지 슬라이드7" />
+          </div>
+        </div>
+        <div class="swiper-prev">
+          <span class="material-icons">
+            arrow_back_ios
+          </span>
+        </div>
+        <div class="swiper-next">
+          <span class="material-icons">
+            arrow_forward_ios
+          </span>
+        </div>
+      </div>
+
+      <div class="swiper sub-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/second_0.png" alt="서브 이미지 슬라이드1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_1.jpg" alt="서브 이미지 슬라이드2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_2.jpg" alt="서브 이미지 슬라이드3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_3.jpg" alt="서브 이미지 슬라이드4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_4.jpg" alt="서브 이미지 슬라이드5" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_5.jpg" alt="서브 이미지 슬라이드6" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/second_6.jpg" alt="서브 이미지 슬라이드7" />
+          </div>
+        </div>
+        <div class="swiper-prev">
+          <span class="material-icons">
+            arrow_back_ios
+          </span>
+        </div>
+        <div class="swiper-next">
+          <span class="material-icons">
+            arrow_forward_ios
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JEJU GEOMEONG ALE -->
+  <section id="geomeong">
+    <h3 class="hide">JEJU GEOMEONG ALE</h3>
+    <div class="inner">
+
+      <div class="geomeong__title">
+        <img src="./img/geomeongale_title.png" alt="제주 거멍 에일" class="title" />
+      </div>
+      <div class="geomeong__description">
+        <img src="./img/geomeongale_img.png" alt="제주 거멍 에일 이미지" class="product" />
+        <div class="text">
+          <em>제주 거멍 에일</em>은 제주의 여름밤을 떠올리게 하는 짙은 빛깔 속에서,
+          제주 흑보리와 초콜릿 밀로 완성된
+          은은한 달큰함과 경쾌한 풍미를 자아내는 흑맥주입니다.
+        </div>
+      </div>
+
+      <div class="swiper visual-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/third_slide0.png" alt="이미지 슬라이드1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/third_slide1.jpg" alt="이미지 슬라이드2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/third_slide2.jpg" alt="이미지 슬라이드3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/third_slide3.jpg" alt="이미지 슬라이드4" />
+          </div>
+        </div>
+        <div class="swiper-prev">
+          <span class="material-icons">
+            arrow_back_ios
+          </span>
+        </div>
+        <div class="swiper-next">
+          <span class="material-icons">
+            arrow_forward_ios
+          </span>
+        </div>
+      </div>
+
+      <div class="swiper sub-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/third_0.png" alt="서브 이미지 슬라이드1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/third_1.jpg" alt="서브 이미지 슬라이드2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/third_2.jpg" alt="서브 이미지 슬라이드3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/third_3.jpg" alt="서브 이미지 슬라이드4" />
+          </div>
+        </div>
+        <div class="swiper-prev">
+          <span class="material-icons">
+            arrow_back_ios
+          </span>
+        </div>
+        <div class="swiper-next">
+          <span class="material-icons">
+            arrow_forward_ios
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>

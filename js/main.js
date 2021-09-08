@@ -35,7 +35,6 @@ thisYear.textContent = new Date().getFullYear();
 
 // 상단버튼
 const header = document.querySelector('#header');
-const video = document.querySelector('#video');
 const videoHeight = video.getBoundingClientRect().height;
 const topBtn = document.querySelector('.top-btn');
 
