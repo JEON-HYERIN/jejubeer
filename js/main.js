@@ -23,8 +23,10 @@ new Swiper('.swiper.sub-swiper', {
 
 new Swiper('#store .swiper', {
   loop: true,
-  autoplay: true,
-  slidesPerView: 7,
+  autoplay: {
+    delay: 1000
+  },
+  slidesPerView: 8,
   spaceBetween: 5,
 })
 
