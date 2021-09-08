@@ -437,7 +437,7 @@ em {
   font-size: var(--font-regular);
 }
 
-#footer .top .footer__menu li.color--blue a {
+#footer .top .footer__menu li.active a {
   color: var(--color-blue);
 }
 
