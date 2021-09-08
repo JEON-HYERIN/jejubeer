@@ -41,6 +41,16 @@ button, .btn {
   cursor: pointer;
 }
 
+/* 키보드로 버튼에 포커스 시 */
+button:focus-visible {
+  outline: 3px solid #000;
+}
+
+/* 마우스, 터치로 버튼에 포커스 시 */
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
 .hide {
   position: absolute;
   left: -5000px;
