@@ -268,7 +268,7 @@ em {
 }
 
 #youtube .inner {
-  height: 1050px;
+  height: 1070px;
 }
 
 #youtube #player {
@@ -285,11 +285,6 @@ em {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: var(--spacing-large) 0;
-}
-
-#wit .inner {
-  height: 1450px;
 }
 
 #wit .inner,
@@ -298,6 +293,7 @@ em {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: var(--spacing-regular) 0 calc(var(--spacing-large) * 3) 0;
 }
 
 #wit .wit__title {
@@ -343,11 +339,6 @@ em {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: var(--spacing-large) 0;
-}
-
-#pellong .inner {
-  height: 1400px;
 }
 
 #pellong .pellong__title {
@@ -375,11 +366,10 @@ em {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: var(--spacing-large) 0;
 }
 
 #geomeong .inner {
-  height: auto;
+  padding-bottom: 50px;
 }
 
 #geomeong .geomeong__title {
