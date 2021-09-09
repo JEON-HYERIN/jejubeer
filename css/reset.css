@@ -37,6 +37,7 @@ em {
 button, .btn {
   display: block;
   border: none;
+  text-align: center;
   background-color: transparent;
   cursor: pointer;
 }

@@ -534,4 +534,214 @@ body {
   height: 100%;
 }
 
+/* inquiry */
+.inquiry {
+  background-color: rgb(246, 246, 247);
+  width: 360px;
+  box-shadow: rgb(81 99 120 / 30%) 0px 6px 60px 0px;
+  min-height: 520px;
+  max-height: 720px;
+  border-radius: 16px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9;
+  /* display: none; */
+}
 
+.inquiry .top {
+  background: linear-gradient(
+    130deg, rgb(29, 202, 211) 0%, rgb(29, 202, 211) 50%, rgb(29, 160, 211)) 100% center;
+  color: #fff;
+  padding: 23px 22px 16px 24px;
+  border-radius: 16px;
+}
+
+.inquiry .top .inquiry__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inquiry .top .inquiry__title h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.inquiry .top .inquiry__title .btn-group {
+  display: flex;
+}
+
+.inquiry .top .inquiry__title .btn-group li:last-child {
+  margin-left: 15px;
+}
+
+.inquiry .top .inquiry__title .btn-group .btn {
+  width: 18px;
+  height: 18px;
+}
+
+.inquiry .top .inquiry__title .btn-group .btn img {
+  width: 100%;
+  height: 100%;
+}
+
+.inquiry .top .inquiry__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.inquiry .top .inquiry__description span {
+  display: inline-block;
+  position: relative;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: .7;
+  margin-top: 2px;
+  line-height: 1.4em;
+}
+
+.inquiry .top .inquiry__description span:first-child {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 1;
+  margin-bottom: 4px;
+  margin-top: 0;
+  line-height: 1.6em;
+}
+
+.inquiry .top .inquiry__description span:first-child::after,
+.inquiry .top .inquiry__description span:last-child::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.inquiry .top .inquiry__description span:first-child::after {
+  width: 22px;
+  height: 22px;
+  background-image: url("../img/on.png");
+}
+
+.inquiry .top .inquiry__description span:last-child::after {
+  width: 14px;
+  height: 14px;
+  background-image: url("../img/clock.png");
+  margin-left: 5px;
+}
+
+.inquiry .bottom .title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 8px;
+  line-height: 1.4em;
+}
+
+.inquiry .bottom .channel-talk,
+.inquiry .bottom .messenger {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
+  background-color: #fff;
+  margin: 8px;
+}
+
+.inquiry .bottom .channel-talk > div:nth-child(2) {
+  display: flex;
+  padding: 8px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.inquiry .bottom .channel-talk > div:nth-child(2):hover {
+  background-color: rgb(246, 246, 247);
+}
+
+.inquiry .bottom .channel-talk .image {
+  width: 56px;
+}
+
+.inquiry .bottom .channel-talk .image img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.inquiry .bottom .channel-talk .text-group {
+  min-width: 180px;
+  color: #242428;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.inquiry .bottom .channel-talk .text-group p {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.inquiry .bottom .channel-talk .text-group .text:first-child {
+  margin-bottom: 30px;
+}
+
+.inquiry .bottom .channel-talk .text-group .text:first-child em {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inquiry .bottom .channel-talk .text-group .text:last-child img {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0 1px;
+  vertical-align: middle;
+}
+
+.inquiry .bottom .channel-talk .btn {
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  padding: 12px 18px;
+  border-radius: 50px;
+  background-color: var(--color-blue);
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
+}
+
+.inquiry .bottom .channel-talk .btn img {
+  margin-right: 5px;
+}
+
+.inquiry .bottom .messenger .messenger__links {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.inquiry .bottom .messenger .messenger__links li {
+  margin-right: 8px;
+}
+
+.inquiry .bottom .messenger .messenger__links li:last-child {
+  margin-right: 0;
+}
+
+.inquiry .bottom .messenger .messenger__links li .btn {
+  width: 36px;
+  height: 36px;
+}
+
+.inquiry .bottom .messenger .messenger__links li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
