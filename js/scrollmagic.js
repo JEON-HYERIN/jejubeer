@@ -1,4 +1,4 @@
-const spyEls = document.querySelectorAll('.product.scroll-spy');
+const spyEls = document.querySelectorAll('.scroll-spy');
 
 spyEls.forEach(function (spyEl) {
   new ScrollMagic

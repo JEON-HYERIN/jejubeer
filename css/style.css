@@ -82,7 +82,7 @@ body {
 }
 
 .movement.to-top {
-  transform: translateY(-150px);
+  transform: translateY(150px);
 }
 
 .show .movement.to-top.delay-0 {
