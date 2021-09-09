@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px){
+  /* HEADER */
   #header nav,
   #header nav:last-child {
     display: none;
@@ -20,5 +21,17 @@
 
   #header .toggle-btn {
     display: block;
+  }
+
+  /* floating action button */
+  .floating-btns {
+    width: 45px;
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .floating-btns li button {
+    width: 45px;
+    height: 45px;
   }
 }
