@@ -64,7 +64,7 @@ copyBtn.addEventListener('click', function () {
   alert('링크가 복사되었습니다!');
 });
 
-// 시간 불러오기
+// 운영시간 체크
 const hours = new Date().getHours();
 const inquiryDescriptionEls = inquiryEl.querySelectorAll('.inquiry__description span');
 
@@ -82,3 +82,15 @@ if (hours >= 18) {
   });
 };
 
+// 비디오 모바일버전으로 변경
+const videoEl = document.querySelector('#video video');
+const moUrl = `https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_tvc_event_mo.mp4`;
+const webUrl = `https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_tvc_event_web.mp4`;
+
+window.addEventListener('resize', function () {
+  if(window.innerWidth < 750) {
+    videoEl.setAttribute('src',moUrl);
+  } else {
+    videoEl.setAttribute('src',webUrl);
+  }
+});
