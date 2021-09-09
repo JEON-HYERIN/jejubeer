@@ -68,7 +68,19 @@ copyBtn.addEventListener('click', function () {
 const hours = new Date().getHours();
 const inquiryDescriptionEls = inquiryEl.querySelectorAll('.inquiry__description span');
 
-if (hours >= 18) {
+if (hours >= 9 && hours < 18) {
+  inquiryDescriptionEls.forEach(function (el, index) {
+    switch (index) {
+      case 0:
+        el.textContent = '응답시간 보통';
+        el.classList.remove('night');
+        break;
+      case 1:
+        el.textContent = '보통 수십 분 내에 응답합니다.';
+        break;
+    }
+  });
+} else {
   inquiryDescriptionEls.forEach(function (el, index) {
     switch (index) {
       case 0:
@@ -80,7 +92,7 @@ if (hours >= 18) {
         break;
     }
   });
-};
+}
 
 // 비디오 모바일버전으로 변경
 const videoEl = document.querySelector('#video video');
@@ -88,9 +100,9 @@ const moUrl = `https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_tvc_even
 const webUrl = `https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_tvc_event_web.mp4`;
 
 window.addEventListener('resize', function () {
-  if(window.innerWidth < 750) {
-    videoEl.setAttribute('src',moUrl);
+  if (window.innerWidth < 768) {
+    videoEl.setAttribute('src', moUrl);
   } else {
-    videoEl.setAttribute('src',webUrl);
+    videoEl.setAttribute('src', webUrl);
   }
 });
