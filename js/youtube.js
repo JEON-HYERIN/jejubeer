@@ -16,7 +16,7 @@ function onYouTubePlayerAPIReady() {
     height: '675',
     playerVars: {
       autoplay: true, // 자동 재생 유무
-      loop: true, // 반복 재생 유무
+      // loop: true, // 반복 재생 유무
       playlist: 'gWXdzlIQ-YE', // 반복 재생할 유튜브 영상 ID 목록
     },
     events: {

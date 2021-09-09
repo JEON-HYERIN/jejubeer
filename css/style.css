@@ -103,6 +103,37 @@ body {
   color: var(--color-white);
 }
 
+/* SCROLL MAGIC */
+.movement {
+  opacity: 0;
+  transition: 1s;
+}
+
+.show .movement.to-top {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.movement.to-top {
+  transform: translateY(-150px);
+}
+
+.show .movement.to-top.delay-0 {
+  transition-delay: 0s;
+}
+.show .movement.to-top.delay-1 {
+  transition-delay: .2s;
+}
+.show .movement.to-top.delay-2 {
+  transition-delay: .4s;
+}
+.show .movement.to-top.delay-3 {
+  transition-delay: .6s;
+}
+.show .movement.to-top.delay-4 {
+  transition-delay: .8s;
+}
+
 /* INNER */
 .inner {
   max-width: 1200px;
@@ -319,7 +350,7 @@ body {
 }
 
 #products .geomeong .inner {
-  padding-bottom: 50px;
+  padding-bottom: var(--spacing-large);
 }
 
 #products .geomeong .geomeong__title {
@@ -370,8 +401,8 @@ body {
 
 #footer .top .footer__menu li a {
   display: block;
-  padding: 10px;
-  margin: 0 15px 15px 0;
+  padding: var(--spacing-micro);
+  margin: 0 var(--spacing-medium) var(--spacing-medium) 0;
   font-weight: var(--weight-regular);
   color: var(--color-light-gray);
   font-size: var(--font-regular);
@@ -394,7 +425,7 @@ body {
 #footer .top .links li a {
   display: block;
   width: 40px;
-  padding-left: 10px;
+  padding-left: var(--spacing-micro);
 }
 
 #footer .top .links li img {
@@ -460,7 +491,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 9;
   display: flex;
   flex-direction: column;
