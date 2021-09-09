@@ -36,3 +36,21 @@ urlBtn.addEventListener('click', function() {
   alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
 });
 
+// inquiry창 활성화
+const chatBtn = document.querySelector('.floating-btns .chat-btn');
+const inquiryEl = document.querySelector('.inquiry');
+const closeBtn = inquiryEl.querySelector('.btn.close');
+
+chatBtn.addEventListener('click', function () {
+  inquiryEl.classList.remove('hidden');
+  header.scrollIntoView();
+});
+
+closeBtn.addEventListener('click', function () {
+  inquiryEl.classList.add('hidden');
+});
+
+// inquiryEl.addEventListener('click', function () {
+//   inquiryEl.classList.add('hidden');
+// });
+
