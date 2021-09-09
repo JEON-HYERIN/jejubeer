@@ -76,7 +76,7 @@ if (hours >= 18) {
         el.classList.add('night');
         break;
       case 1:
-        el.textContent = '15시간 뒤 상담이 운영됩니다.';
+        el.textContent = '오전 9시부터 상담이 운영됩니다.';
         break;
     }
   });

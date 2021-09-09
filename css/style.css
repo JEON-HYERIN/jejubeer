@@ -197,6 +197,15 @@ body {
   color: #fff;
 }
 
+#header .toggle-btn {
+  position: absolute;
+  top: 5px; 
+  right: 30px;
+  color: #1ecad3;
+  font-size: 25px;
+  display: none;
+}
+
 /* VIDEO */
 #video {
   position: relative;
