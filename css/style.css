@@ -552,12 +552,20 @@ body {
   display: none;
 }
 
+.inquiry .top.invisible,
+.inquiry .bottom .channel-talk.invisible,
+.inquiry .bottom .messenger.invisible {
+  opacity: 0;
+}
+
 .inquiry .top {
   background: linear-gradient(
     130deg, rgb(29, 202, 211) 0%, rgb(29, 202, 211) 50%, rgb(29, 160, 211)) 100% center;
   color: #fff;
   padding: 23px 22px 16px 24px;
   border-radius: 16px;
+  opacity: 1;
+  transition: opacity .5s ease-in-out 0s;
 }
 
 .inquiry .top .inquiry__title {
@@ -639,6 +647,10 @@ body {
   margin-left: 5px;
 }
 
+.inquiry .bottom .channel-talk {
+  transition: opacity .5s ease-in-out .2s;
+}
+
 .inquiry .bottom .title {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
@@ -653,6 +665,7 @@ body {
   box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
   background-color: #fff;
   margin: 8px;
+  opacity: 1;
 }
 
 .inquiry .bottom .channel-talk > div:nth-child(2) {
@@ -721,6 +734,10 @@ body {
 
 .inquiry .bottom .channel-talk .btn img {
   margin-right: 5px;
+}
+
+.inquiry .bottom .messenger {
+  transition: opacity .5s ease-in-out .4s;
 }
 
 .inquiry .bottom .messenger .messenger__links {

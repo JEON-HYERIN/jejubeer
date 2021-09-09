@@ -40,17 +40,20 @@ urlBtn.addEventListener('click', function() {
 const chatBtn = document.querySelector('.floating-btns .chat-btn');
 const inquiryEl = document.querySelector('.inquiry');
 const closeBtn = inquiryEl.querySelector('.btn.close');
+const invisibleEls = inquiryEl.querySelectorAll('.invisible');
 
 chatBtn.addEventListener('click', function () {
   inquiryEl.classList.remove('hidden');
   header.scrollIntoView();
+  invisibleEls.forEach(function(invisibleEl) {
+    invisibleEl.classList.remove('invisible');
+  });
 });
 
 closeBtn.addEventListener('click', function () {
   inquiryEl.classList.add('hidden');
+  invisibleEls.forEach(function(invisibleEl) {
+    invisibleEl.classList.add('invisible');
+  });
 });
-
-// inquiryEl.addEventListener('click', function () {
-//   inquiryEl.classList.add('hidden');
-// });
 
