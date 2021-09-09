@@ -607,6 +607,10 @@ body {
   background-image: url("../img/on.png");
 }
 
+.inquiry .top .inquiry__description span.night::after {
+  background-image: url("../img/moon.png");
+}
+
 .inquiry .top .inquiry__description span:last-child::after {
   width: 14px;
   height: 14px;

@@ -57,3 +57,28 @@ closeBtn.addEventListener('click', function () {
   });
 });
 
+const messengerEl = inquiryEl.querySelector('.messenger');
+const copyBtn = document.querySelector('.messenger__links li:nth-child(2) button.btn');
+
+copyBtn.addEventListener('click', function () {
+  alert('링크가 복사되었습니다!');
+});
+
+// 시간 불러오기
+const hours = new Date().getHours();
+const inquiryDescriptionEls = inquiryEl.querySelectorAll('.inquiry__description span');
+
+if (hours >= 18) {
+  inquiryDescriptionEls.forEach(function (el, index) {
+    switch (index) {
+      case 0:
+        el.textContent = '운영시간 아님';
+        el.classList.add('night');
+        break;
+      case 1:
+        el.textContent = '15시간 뒤 상담이 운영됩니다.';
+        break;
+    }
+  });
+};
+
