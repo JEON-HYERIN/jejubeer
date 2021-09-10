@@ -38,9 +38,14 @@
    }
 
    /* PRODUCTS */
+   #products .product .inner {
+    padding: 10px 0;
+   }
+
    #products .product .title {
      width: 322px;
      height: auto;
+     margin-bottom: 20px;
    }
 
    #products .product .title img {
