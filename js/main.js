@@ -2,6 +2,15 @@
 const thisYear = document.querySelector('.this-year');
 thisYear.textContent = new Date().getFullYear();
 
+// 토글버튼 클릭시 드롭메뉴 활성화
+const toggleBtn = document.querySelector('.toggle-btn');
+const navEls = document.querySelectorAll('#header nav');
+toggleBtn.addEventListener('click', function () {
+  navEls.forEach(function (navEl) {
+    navEl.classList.toggle('open');
+  });
+});
+
 // 상단버튼(top-btn)
 const header = document.querySelector('#header');
 const videoHeight = video.getBoundingClientRect().height;
