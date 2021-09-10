@@ -258,6 +258,10 @@ body {
   padding: 30px 0 150px 0;
 }
 
+#products .product .title {
+  margin-bottom: 60px;
+}
+
 #products .product .description {
   display: flex;
   align-items: center;
@@ -278,7 +282,6 @@ body {
 
 #products .wit .wit__title {
   height: 110px;
-  margin-bottom: 75px;
 }
 
 #products .wit .wit__title img {
@@ -290,12 +293,6 @@ body {
   height: 309px;
 }
 
-#products .wit .wit__description .text {
-  width: 500px;
-  height: 116px;
-  box-sizing: border-box;
-}
-
 /* jeju pellong ale */
 #products .pellong {
   background-image: url("../img/pellongale_bg.png");
@@ -303,7 +300,6 @@ body {
 
 #products .pellong .pellong__title {
   width: 400px;
-  margin-bottom: 75px;
 }
 
 #products .pellong .pellong__title img {
@@ -313,11 +309,6 @@ body {
 #products .pellong .pellong__description img {
   width: auto;
   height: 279px;
-}
-
-#products .pellong .pellong__description .text {
-  width: 660px;
-  height: 128px;
 }
 
 /* jeju geomeong ale */
@@ -331,16 +322,15 @@ body {
 
 #products .geomeong .geomeong__title {
   width: 400px;
-  margin-bottom: 75px;
 }
 
 #products .geomeong .geomeong__title img {
   width: 100%;
 }
 
-#products .geomeong .geomeong__description .text {
-  width: 560px;
-  height: 96px;
+#products .geomeong .geomeong__description img {
+  width: auto;
+  height: 279px;
 }
 
 /* STORE */

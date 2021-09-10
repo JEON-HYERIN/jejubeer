@@ -64,7 +64,7 @@ copyBtn.addEventListener('click', function () {
   alert('링크가 복사되었습니다!');
 });
 
-// 운영시간 체크
+// 운영시간 체크(9 to 6)
 const hours = new Date().getHours();
 const inquiryDescriptionEls = inquiryEl.querySelectorAll('.inquiry__description span');
 

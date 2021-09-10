@@ -23,6 +23,53 @@
     display: block;
   }
 
+  /* VIDEO */
+  #video .video__title {
+    width: 403px;
+  }
+
+   /* YOUTUBE */
+   #youtube .inner {
+     max-height: 118px;
+   }
+
+   #youtube #player {
+     display: none;
+   }
+
+   /* PRODUCTS */
+   #products .product .title {
+     width: 322px;
+     height: auto;
+   }
+
+   #products .product .title img {
+     width: 100%;
+     height: auto;
+   }
+
+   #products .product .description {
+     flex-direction: column;
+   }
+
+   #products .product .description .text {
+    padding-left: 0;
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  #products .wit .wit__description img {
+    height: 189px;
+  }
+
+  #products .pellong .pellong__description img {
+    height: 181px;
+  }
+
+  #products .geomeong .geomeong__description img {
+    height: 186px;
+  }
+
   /* floating action button */
   .floating-btns {
     width: 45px;
@@ -34,4 +81,6 @@
     width: 45px;
     height: 45px;
   }
+
+ 
 }
