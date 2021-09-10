@@ -6,11 +6,13 @@
   }
 
   .swiper.visual-swiper {
-    max-height: 260px;
+    /* max-height: 260px; */
+    max-height: 240px;
   }
 
   .swiper.sub-swiper {
-    max-height: 164px;
+    /* max-height: 164px; */
+    max-height: 120px;
   }
 
   .swiper.visual-swiper .swiper-prev,
