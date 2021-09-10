@@ -12,8 +12,8 @@ function onYouTubePlayerAPIReady() {
   // <div id="player"></div>
   new YT.Player('player', {
     videoId: 'gWXdzlIQ-YE', // 최초 재생할 유튜브 영상 ID
-    width: '1200',
-    height: '675',
+    // width: '1200',
+    // height: '675',
     playerVars: {
       autoplay: true, // 자동 재생 유무
       // loop: true, // 반복 재생 유무
