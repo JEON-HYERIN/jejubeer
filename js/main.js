@@ -40,20 +40,20 @@ urlBtn.addEventListener('click', function() {
 const chatBtn = document.querySelector('.floating-btns .chat-btn');
 const inquiryEl = document.querySelector('.inquiry');
 const closeBtn = inquiryEl.querySelector('.btn.close');
-const invisibleEls = inquiryEl.querySelectorAll('.invisible');
+const fadeInEls = inquiryEl.querySelectorAll('.fade-in');
 
 chatBtn.addEventListener('click', function () {
   inquiryEl.classList.remove('hidden');
   header.scrollIntoView();
-  invisibleEls.forEach(function(invisibleEl) {
-    invisibleEl.classList.remove('invisible');
+  fadeInEls.forEach(function(fadeInEl) {
+    fadeInEl.classList.remove('fade-in');
   });
 });
 
 closeBtn.addEventListener('click', function () {
   inquiryEl.classList.add('hidden');
-  invisibleEls.forEach(function(invisibleEl) {
-    invisibleEl.classList.add('invisible');
+  fadeInEls.forEach(function(fadeInEl) {
+    fadeInEl.classList.add('fade-in');
   });
 });
 
@@ -107,19 +107,3 @@ window.addEventListener('resize', function () {
   }
 });
 
-// product text 모바일버전으로 변경
-const productTextEls = document.querySelectorAll('#products .product .description .text');
-
-window.addEventListener('resize', function () {
-  if (window.innerWidth < 768) {
-    productTextEls.forEach(function (textEl, index) {
-      switch (index) {
-        case 0:
-      }
-    });
-  } else {
-    productTextEls.forEach(function (textEl, index) {
-      console.log(index, textEl.textContent)
-    });
-  }
-});

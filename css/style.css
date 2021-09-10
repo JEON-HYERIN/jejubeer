@@ -526,9 +526,9 @@ body {
   display: none;
 }
 
-.inquiry .top.invisible,
-.inquiry .bottom .channel-talk.invisible,
-.inquiry .bottom .messenger.invisible {
+.inquiry .top.fade-in,
+.inquiry .bottom .channel-talk.fade-in,
+.inquiry .bottom .messenger.fade-in {
   opacity: 0;
 }
 
