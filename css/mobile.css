@@ -35,14 +35,6 @@
   }
   
   /* HEADER */
-  #header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9;
-  }
-
   #header .inner {
     flex-direction: row;
     justify-content: space-between;
@@ -75,8 +67,8 @@
 
   #header nav:first-of-type,
   #header nav:last-of-type {
-    position: fixed;
-    z-index: 9;
+    position: absolute;
+    z-index: 1;
     width: 100%;
     top: 0;
     left: 0;
