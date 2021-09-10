@@ -170,4 +170,15 @@
     width: 45px;
     height: 45px;
   }
+
+  /* share */
+  .share .share__links li .btn {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* inquiry */
+  .inquiry {
+    right: 10px;
+  }
 }
