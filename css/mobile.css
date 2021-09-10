@@ -97,6 +97,7 @@
   #header nav ul.main-menu {
     flex-direction: column;
     background-color: #fff;
+    padding-top: 0;
   }
 
   #header nav ul.main-menu li a {
