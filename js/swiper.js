@@ -25,28 +25,14 @@ new Swiper('.swiper.sub-swiper', {
       slidesPerView: 2,
       spaceBetween: 10
     },
-    // when window width is >= 480px
-    480: {
-      slidesPerView: 2,
-      spaceBetween: 10
-    },
     600: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 10
-    },
-
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 5
     },
     960: {
       slidesPerView: 3.5,
       spaceBetween: 5
     },
-    1200: {
-      slidesPerView: 3.5,
-      spaceBetween: 5
-    }
   },
 });
 
@@ -55,6 +41,21 @@ new Swiper('#store .swiper', {
   autoplay: {
     delay: 1000
   },
-  slidesPerView: 8,
-  spaceBetween: 5,
-})
+  // slidesPerView: 8,
+  // spaceBetween: 5,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 4,
+      spaceBetween: 5
+    },
+    600: {
+      slidesPerView: 6,
+      spaceBetween: 5
+    },
+    960: {
+      slidesPerView: 8,
+      spaceBetween: 5
+    },
+  },
+});

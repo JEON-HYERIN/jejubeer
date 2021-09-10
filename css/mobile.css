@@ -2,7 +2,7 @@
   /* SWIPER */
   .swiper.visual-swiper,
   .swiper.sub-swiper {
-    max-width: 460px;
+    /* max-width: 460px; */
   }
 
   .swiper.visual-swiper {
@@ -25,10 +25,10 @@
   }
 
   .swiper.sub-swiper .swiper-prev,
-.swiper.sub-swiper .swiper-next {
-  width: 30px;
-  height: 30px;
-}
+  .swiper.sub-swiper .swiper-next {
+    width: 30px;
+    height: 30px;
+  }
 
 .swiper.sub-swiper .swiper-prev span,
 .swiper.sub-swiper .swiper-next span {
@@ -61,7 +61,7 @@
 
   /* VIDEO */
   #video .video__title {
-    width: 403px;
+    /* width: 403px; */
   }
 
    /* YOUTUBE */
@@ -118,6 +118,36 @@
 
   #products .geomeong .geomeong__description img {
     height: 186px;
+  }
+
+  /* STORE */
+  #store {
+    padding: 20px 0;
+  }
+
+  #store .store__description {
+    font-size: 16px;
+  }
+
+  /* FOOTER */
+  #footer .top {
+    display: none;
+  }
+
+  #footer .bottom {
+    padding: 0 20px;
+  }
+
+  #footer .bottom .info.info--web {
+    display: none;
+  }
+  
+  #footer .bottom .info.info--mob {
+    display: block;
+  }
+
+  #footer .bottom .info span {
+    font-size: 11px;
   }
 
   /* floating action button */
