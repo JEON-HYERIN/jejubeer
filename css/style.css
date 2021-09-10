@@ -258,7 +258,8 @@ body {
 }
 
 #youtube .inner {
-  height: 1070px;
+  /* height: 1070px; */
+  height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,6 +270,7 @@ body {
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
+  margin-top: 50px;
 }
 
 #youtube #player {

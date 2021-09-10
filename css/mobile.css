@@ -79,6 +79,7 @@
 
    #youtube .youtube__area {
      width: 90%;
+     margin-top: 20px;
    }
 
    #youtube #player {
