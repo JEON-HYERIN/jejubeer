@@ -46,7 +46,7 @@ new Swiper('#store .swiper', {
   breakpoints: {
     // when window width is >= 320px
     320: {
-      slidesPerView: 4,
+      slidesPerView: 5,
       spaceBetween: 5
     },
     600: {

@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   /* SWIPER */
   .swiper.visual-swiper,
   .swiper.sub-swiper {
@@ -30,10 +30,14 @@
     height: 30px;
   }
 
-.swiper.sub-swiper .swiper-prev span,
-.swiper.sub-swiper .swiper-next span {
-  font-size: 30px;
-}
+  .swiper.sub-swiper .swiper-prev span,
+  .swiper.sub-swiper .swiper-next span {
+    font-size: 30px;
+  }
+
+  #store .swiper {
+    width: 83.3%;
+  }
   
   /* HEADER */
   #header nav,
@@ -146,10 +150,6 @@
     display: block;
   }
 
-  #footer .bottom .info span {
-    font-size: 11px;
-  }
-
   /* floating action button */
   .floating-btns {
     width: 45px;
@@ -161,6 +161,4 @@
     width: 45px;
     height: 45px;
   }
-
- 
 }
