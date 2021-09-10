@@ -11,6 +11,7 @@ body {
   /* width: 1000px; */
   width: 83.3%;
   position: relative;
+  overflow: hidden;
 }
 
 .swiper.visual-swiper .swiper-slide,
@@ -18,6 +19,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.swiper.sub-swiper .swiper-slide {
+  border-top: 1px solid #1ecad3;
 }
 
 .swiper .swiper-slide img {
