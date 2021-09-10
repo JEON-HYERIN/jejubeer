@@ -242,6 +242,7 @@ body {
 #video .video__title {
   max-width: 790px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 #video .video__title img {
