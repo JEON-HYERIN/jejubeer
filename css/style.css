@@ -231,6 +231,14 @@ body {
   width: 100%;
 }
 
+#video video.video--web {
+  display: block;
+}
+
+#video video.video--mob {
+  display: none;
+}
+
 #video .video__title {
   max-width: 790px;
   margin: 0 auto;

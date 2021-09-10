@@ -59,6 +59,14 @@
   }
 
   /* VIDEO */
+  #video video.video--web {
+    display: none;
+  }
+
+  #video video.video--mob {
+    display: block;
+  }
+
   #video .video__title {
     /* width: 403px; */
   }
