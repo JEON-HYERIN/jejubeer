@@ -1,4 +1,40 @@
 @media screen and (max-width: 768px){
+  /* SWIPER */
+  .swiper.visual-swiper,
+  .swiper.sub-swiper {
+    max-width: 460px;
+  }
+
+  .swiper.visual-swiper {
+    max-height: 260px;
+  }
+
+  .swiper.sub-swiper {
+    max-height: 164px;
+  }
+
+  .swiper.visual-swiper .swiper-prev,
+  .swiper.visual-swiper .swiper-next {
+    width: 60px;
+    height: 60px;
+  }
+
+  .swiper.visual-swiper .swiper-prev span,
+  .swiper.visual-swiper .swiper-next span {
+    font-size: 60px;
+  }
+
+  .swiper.sub-swiper .swiper-prev,
+.swiper.sub-swiper .swiper-next {
+  width: 30px;
+  height: 30px;
+}
+
+.swiper.sub-swiper .swiper-prev span,
+.swiper.sub-swiper .swiper-next span {
+  font-size: 30px;
+}
+  
   /* HEADER */
   #header nav,
   #header nav:last-child {

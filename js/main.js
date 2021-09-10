@@ -96,14 +96,14 @@ if (hours >= 9 && hours < 18) {
 
 // 비디오 모바일버전으로 변경
 const videoEl = document.querySelector('#video video');
-const moUrl = `https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_tvc_event_mo.mp4`;
-const webUrl = `https://jbimweb.s3.ap-northeast-2.amazonaws.com/video/jb_tvc_event_web.mp4`;
+const moSrc = './video/jb_tvc_event_mo.mp4';
+const webSrc = './video/jb_tvc_event_web.mp4';
 
 window.addEventListener('resize', function () {
   if (window.innerWidth < 768) {
-    videoEl.setAttribute('src', moUrl);
+    videoEl.setAttribute('src', moSrc);
   } else {
-    videoEl.setAttribute('src', webUrl);
+    videoEl.setAttribute('src', webSrc);
   }
 });
 
