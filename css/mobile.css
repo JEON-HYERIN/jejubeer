@@ -14,25 +14,18 @@
   }
 
   .swiper.visual-swiper .swiper-prev,
-  .swiper.visual-swiper .swiper-next {
-    width: 60px;
-    height: 60px;
+  .swiper.visual-swiper .swiper-next,
+  .swiper.sub-swiper .swiper-prev,
+  .swiper.sub-swiper .swiper-next {
+    width: 20px;
+    height: 20px;
   }
 
   .swiper.visual-swiper .swiper-prev span,
-  .swiper.visual-swiper .swiper-next span {
-    font-size: 60px;
-  }
-
-  .swiper.sub-swiper .swiper-prev,
-  .swiper.sub-swiper .swiper-next {
-    width: 30px;
-    height: 30px;
-  }
-
+  .swiper.visual-swiper .swiper-next span,
   .swiper.sub-swiper .swiper-prev span,
   .swiper.sub-swiper .swiper-next span {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #store .swiper {
