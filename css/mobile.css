@@ -56,6 +56,15 @@
     padding-left: 0;
     padding-top: 20px;
     font-size: 16px;
+    text-align: center;
+  }
+
+  #products .product .description .text.text--mob {
+    display: block;
+  }
+
+  #products .product .description .text.text--web {
+    display: none;
   }
 
   #products .wit .wit__description img {

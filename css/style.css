@@ -275,6 +275,14 @@ body {
   font-weight: 400;
 }
 
+#products .product .description .text.text--web {
+  display: block;
+}
+
+#products .product .description .text.text--mob {
+  display: none;
+}
+
 /* jeju wit ale */
 #products .wit {
   background-image: url("../img/witale_bg.png");

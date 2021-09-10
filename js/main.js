@@ -106,3 +106,20 @@ window.addEventListener('resize', function () {
     videoEl.setAttribute('src', webUrl);
   }
 });
+
+// product text 모바일버전으로 변경
+const productTextEls = document.querySelectorAll('#products .product .description .text');
+
+window.addEventListener('resize', function () {
+  if (window.innerWidth < 768) {
+    productTextEls.forEach(function (textEl, index) {
+      switch (index) {
+        case 0:
+      }
+    });
+  } else {
+    productTextEls.forEach(function (textEl, index) {
+      console.log(index, textEl.textContent)
+    });
+  }
+});
