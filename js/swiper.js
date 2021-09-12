@@ -27,6 +27,7 @@ new Swiper('.swiper.sub-swiper', {
     },
     600: {
       slidesPerView: 3,
+      // slidesPerView: 2,
       spaceBetween: 10
     },
     960: {

@@ -549,6 +549,10 @@ body {
   width: 100%;
 }
 
+#footer .bottom {
+  padding: 0 10px;
+}
+
 #footer .bottom .info {
   display: flex;
   flex-direction: column;
