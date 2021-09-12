@@ -730,6 +730,7 @@ body {
 .inquiry .top .inquiry__description {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .inquiry .top .inquiry__description span {
@@ -752,7 +753,7 @@ body {
 }
 
 .inquiry .top .inquiry__description span:first-child::after,
-.inquiry .top .inquiry__description span:last-child::after {
+.inquiry .top .inquiry__description span.inquiry__description__hours::after {
   content: '';
   position: absolute;
   top: 0;
@@ -773,11 +774,41 @@ body {
   background-image: url("../img/moon.png");
 }
 
-.inquiry .top .inquiry__description span:last-child::after {
+.inquiry .top .inquiry__description span.inquiry__description__hours {
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.inquiry .top .inquiry__description span.inquiry__description__hours::after {
   width: 14px;
   height: 14px;
   background-image: url("../img/clock.png");
   margin-left: 5px;
+}
+
+.inquiry .top .inquiry__description span.inquiry__description__hours:hover {
+  opacity: 1;
+}
+
+.inquiry .top .inquiry__description .business-hours {
+  position: absolute;
+  top: 75px;
+  left: -10px;
+  z-index: 9;
+  max-width: 200px;
+  box-sizing: border-box;
+  padding: 12px 16px;
+  border-radius: 6px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 4px 12px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  display: none;
+}
+
+.inquiry .top .inquiry__description .business-hours.open {
+  display: block;
 }
 
 .inquiry .bottom .channel-talk {

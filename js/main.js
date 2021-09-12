@@ -104,6 +104,13 @@ if ((hours >= 9 && hours < 18) && (day >= 1 && day <= 5)) {
   });
 }
 
+// inquiry 운영시간 보기
+const inquiryHours = inquiryEl.querySelector('.inquiry__description__hours');
+const inquiryHoursOpen = inquiryEl.querySelector('.business-hours');
+inquiryHours.addEventListener('click', function () {
+  inquiryHoursOpen.classList.toggle('open');
+});
+
 // 비디오 모바일버전으로 변경
 // const videoEl = document.querySelector('#video video');
 // const moSrc = './video/jb_tvc_event_mo.mp4';
