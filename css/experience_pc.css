@@ -26,3 +26,21 @@
   border-bottom: 1px solid #fff;
   color: #fff;
 }
+
+/* VIDEO */
+#video .video__title {
+  background-color: #0f1b28;
+  max-width: none;
+  text-align: center;
+  padding: 20px;
+}
+
+#video .video__title span {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#video .video__title span:last-child {
+  margin-right: 0;
+}
