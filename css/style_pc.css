@@ -776,7 +776,7 @@ body {
 
 .inquiry .top .inquiry__description span.inquiry__description__hours {
   cursor: pointer;
-  transition: 300ms;
+  transition: 250ms;
 }
 
 .inquiry .top .inquiry__description span.inquiry__description__hours::after {
@@ -803,12 +803,14 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.05);
   background-color: rgba(0, 0, 0, 0.9);
   color: rgb(255, 255, 255);
-  opacity: 1;
-  display: none;
+  opacity: 0;
+  transition: opacity 250ms;
+  visibility: hidden;
 }
 
 .inquiry .top .inquiry__description .business-hours.open {
-  display: block;
+  opacity: 1;
+  visibility: visible;
 }
 
 .inquiry .bottom .channel-talk {
