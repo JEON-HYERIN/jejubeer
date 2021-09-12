@@ -1,10 +1,5 @@
 @media screen and (min-width: 360px) and (max-width: 767px) {
   /* SWIPER */
-  .swiper.visual-swiper,
-  .swiper.sub-swiper {
-    /* max-width: 460px; */
-  }
-
   .swiper.visual-swiper {
     /* max-height: 240px; */
     max-height: 170px;

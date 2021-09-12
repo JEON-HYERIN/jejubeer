@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+  /* HEADER */
+  #header .inner {
+    padding: 0 10px;
+  }
+
+  /* VIDEO */
+  #video .video__title span {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  /* VISUAL */
+  #visual .text-group .text {
+    max-width: 350px;
+  }
+}

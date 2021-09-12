@@ -33,11 +33,11 @@
   max-width: none;
   text-align: center;
   padding: 20px;
+  color: #fff;
+  font-size: 20px;
 }
 
 #video .video__title span {
-  color: #fff;
-  font-size: 20px;
   margin-right: 5px;
 }
 
@@ -62,6 +62,7 @@
   /* width: 547px; */
   max-width: 547px;
   position: absolute;
+  margin: 5px 0;
 }
 
 #visual .text-group .text.text1 {
