@@ -14,17 +14,13 @@
 }
 
 #header nav ul.main-menu li a,
-#header nav ul.sub-menu li a {
-  color: #fff;
-}
-
+#header nav ul.sub-menu li a,
 #header nav ul.main-menu li.active a {
   color: #fff;
 }
 
 #header nav ul.main-menu li.active span {
   border-bottom: 1px solid #fff;
-  color: #fff;
 }
 
 /* VIDEO */
