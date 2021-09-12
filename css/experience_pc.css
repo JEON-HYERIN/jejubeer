@@ -44,3 +44,36 @@
 #video .video__title span:last-child {
   margin-right: 0;
 }
+
+/* VISUAL */
+#visual {
+  background-image: url("../img/experience/visual_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#visual .inner {
+  height: 100vh;
+}
+
+#visual .text-group .text {
+  /* width: 547px; */
+  max-width: 547px;
+  position: absolute;
+}
+
+#visual .text-group .text.text1 {
+  top: 100px;
+  left: 0;
+}
+
+#visual .text-group .text.text2 {
+  bottom: 100px;
+  right: 0;
+}
+
+#visual .text-group .text img {
+  width: 100%;
+}
