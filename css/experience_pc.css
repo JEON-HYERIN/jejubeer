@@ -59,7 +59,6 @@
 }
 
 #visual .text-group .text {
-  /* width: 547px; */
   max-width: 547px;
   position: absolute;
   margin: 5px 0;
@@ -77,4 +76,22 @@
 
 #visual .text-group .text img {
   width: 100%;
+}
+
+/* THEME */
+#theme {
+  background-image: url("../img/experience/theme_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#theme .inner {
+  height: 1000px;
+}
+
+#theme .theme__title {
+  width: 930px;
+  margin: 0 auto;
+  padding-top: 90px;
 }

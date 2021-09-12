@@ -1,17 +1,28 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
-   /* HEADER */
-   #header .inner {
+
+  /* HEADER */
+  #header .inner {
     padding: 0 10px;
   }
 
-    /* VIDEO */
-    #video .video__title {
-      font-size: 16px;
-      font-weight: 400;
-    }
-  
-    /* VISUAL */
-    #visual .text-group .text {
-      max-width: 350px;
-    }
+  /* VIDEO */
+  #video .video__title {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  /* VISUAL */
+  #visual .text-group .text {
+    max-width: 350px;
+  }
+
+  /* THEME */
+  #theme .inner {
+    height: 600px;
+  }
+
+  #theme .theme__title {
+    max-width: 100%;
+    padding-top: 20px;
+  }
 }
