@@ -7,6 +7,26 @@
     display: block !important;
   }
 
+  br.only-m {
+    content: '';
+  }
+  
+  br.only-m::after {
+    content: '\00a0';
+  }
+
+  #products br.only-pc {
+    content: '';
+  }
+  
+  #products br.only-pc::after {
+    content: '\00a0';
+  }
+
+  #products br.only-m,
+  #products br.only-m::after {
+    content: normal;
+  }
   
   /* SWIPER */
   .swiper.visual-swiper {
@@ -230,14 +250,6 @@
 
   #footer .bottom {
     padding: 0 20px;
-  }
-
-  #footer .bottom .info.info--web {
-    display: none;
-  }
-
-  #footer .bottom .info.info--mob {
-    display: block;
   }
 
   /* floating action button */

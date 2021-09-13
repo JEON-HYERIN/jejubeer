@@ -1,3 +1,12 @@
+/* COMMON */
+br.only-m {
+  content: '';
+}
+
+br.only-m::after {
+  content: '\00a0';
+}
+
 /* HEADER */
 #header {
   background-color: transparent;

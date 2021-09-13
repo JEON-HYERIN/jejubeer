@@ -7,6 +7,19 @@
     display: block !important;
   }
 
+  br.only-m,
+  br.only-m::after {
+    content: normal;
+  }
+
+  br.only-pc {
+    content: '';
+  }
+  
+  br.only-pc::after {
+    content: '\00a0';
+  }
+
   /* SWIPER */
   .swiper.visual-swiper {
     max-height: 170px;
@@ -249,15 +262,8 @@
     padding: 0 20px;
   }
 
-  #footer .bottom .info.info--web {
-    display: none;
-  }
-
-  #footer .bottom .info.info--mob {
-    display: block;
-  }
-
-  #footer .bottom .info span {
+  #footer .bottom .info {
+    letter-spacing: -0.5px;
     line-height: normal;
   }
 

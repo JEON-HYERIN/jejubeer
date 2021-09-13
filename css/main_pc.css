@@ -7,6 +7,18 @@
   display: block !important;
 }
 
+br.only-m {
+  content: '';
+}
+
+br.only-m::after {
+  content: '\00a0';
+}
+
+br.only-pc {
+  content: normal;
+}
+
 /* SWIPER */
 .swiper.visual-swiper,
 .swiper.sub-swiper {
@@ -534,12 +546,7 @@
 }
 
 #footer .bottom .info {
-  /* display: flex;
-  flex-direction: column; */
   margin-bottom: 15px;
-}
-
-#footer .bottom .info span {
   font-size: 13px;
   color: #999;
   font-weight: 400;

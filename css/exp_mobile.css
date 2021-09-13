@@ -1,4 +1,10 @@
 @media screen and (min-width: 360px) and (max-width: 767px) {
+  /* COMMON */
+  br.only-m,
+  br.only-m::after {
+    content: normal;
+  }
+
   /* HEADER */
   #header.white {
     background-color: #fff;
