@@ -27,7 +27,7 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="./favicon.ico" />
-  <!-- Google Fonts - Noto Sans -->
+  <!-- Google Fonts - Noto Sans KR -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -45,10 +45,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
 
   <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/main_pc.css" />
-  <link rel="stylesheet" href="./css/main_tablet.css" media="screen and (min-width:768px) and (max-width:1023px)" />
-  <link rel="stylesheet" href="./css/main_mobile.css" media="screen and (min-width:360px) and (max-width:767px)" />
-  <link rel="stylesheet" href="./css/main_mobile2.css" media="screen and (min-width:280px) and (max-width:359px)" />
+  <link rel="stylesheet" href="./css/main/main_pc.css" />
+  <link rel="stylesheet" href="./css/main/main_tablet.css" media="screen and (min-width:768px) and (max-width:1023px)" />
+  <link rel="stylesheet" href="./css/main/main_mobile.css" media="screen and (min-width:360px) and (max-width:767px)" />
+  <link rel="stylesheet" href="./css/main/main_mobile2.css" media="screen and (max-width:359px)" />
 
   <script defer src="./js/scrollmagic.js"></script>
   <script defer src="./js/swiper.js"></script>
@@ -97,8 +97,7 @@
     <!-- VIDEO -->
     <section id="video">
       <h3 class="hide">VIDEO</h3>
-      <video src="./video/jb_tvc_event_web.mp4" class="pc" autoplay muted loop preload="metadata"
-        playsinline></video>
+      <video src="./video/jb_tvc_event_web.mp4" class="pc" autoplay muted loop preload="metadata" playsinline></video>
       <video src="./video/jb_tvc_event_mo.mp4" class="mobile" autoplay muted loop preload="metadata"
         playsinline></video>
 
@@ -132,13 +131,8 @@
           </div>
           <div class="wit__description description">
             <img src="./img/witale_img.png" alt="제주 위트 에일 이미지" class="movement to-top delay-1" />
-            <div class="text pc movement to-top delay-2">
-              <em>제주 위트 에일</em>은 제주 감귤 껍질의 상큼함과 섬세한 꽃 향,<br />
-              입 안 가득 부드럽게 퍼지는 시트러스향이 만나<br />
-              산뜻한 끝 맛을 선사하는 밀맥주입니다.
-            </div>
-            <div class="text mobile movement to-top delay-2">
-              <em>제주 위트 에일</em>은<br />제주 감귤 껍질의 상큼함과 섬세한 꽃 향,<br />
+            <div class="text movement to-top delay-2">
+              <em>제주 위트 에일</em>은<br class="only-m" />제주 감귤 껍질의 상큼함과 섬세한 꽃 향,<br />
               입 안 가득 부드럽게 퍼지는 시트러스향이 만나<br />
               산뜻한 끝 맛을 선사하는 밀맥주입니다.
             </div>
@@ -147,16 +141,12 @@
           <div class="swiper visual-swiper movement to-top delay-3">
             <div class="swiper-wrapper">
               <div class="swiper-slide slide0">
-                <!-- <img src="./img/first_slide0.png" alt="이미지 슬라이드1" /> -->
               </div>
               <div class="swiper-slide slide1">
-                <!-- <img src="./img/first_slide1.jpg" alt="이미지 슬라이드2" /> -->
               </div>
               <div class="swiper-slide slide2">
-                <!-- <img src="./img/first_slide2.jpg" alt="이미지 슬라이드3" /> -->
               </div>
               <div class="swiper-slide slide3">
-                <!-- <img src="./img/first_slide3.jpg" alt="이미지 슬라이드4" /> -->
               </div>
             </div>
             <div class="swiper-prev">
@@ -175,16 +165,12 @@
           <div class="swiper sub-swiper movement to-top delay-4">
             <div class="swiper-wrapper">
               <div class="swiper-slide slide0">
-                <!-- <img src="./img/first_0.png" alt="서브 이미지 슬라이드 1" /> -->
               </div>
               <div class="swiper-slide slide1">
-                <!-- <img src="./img/first_1.jpg" alt="서브 이미지 슬라이드 2" /> -->
               </div>
               <div class="swiper-slide slide2">
-                <!-- <img src="./img/first_2.jpg" alt="서브 이미지 슬라이드 3" /> -->
               </div>
               <div class="swiper-slide slide3">
-                <!-- <img src="./img/first_3.jpg" alt="서브 이미지 슬라이드 4" /> -->
               </div>
             </div>
             <div class="swiper-prev">
@@ -212,14 +198,8 @@
           </div>
           <div class="pellong__description description">
             <img src="./img/pellongale_img.png" alt="제주 펠롱 에일 이미지" class="movement to-top delay-1" />
-            <div class="text pc movement to-top delay-2">
-              <em>제주 펠롱 에일</em>은 반딧불이 반짝이는 곶자왈에서 영감을 받아 탄생하였습니다.<br />
-              다양하고 개성있는 홉들을 블렌딩하여<br />
-              시트러스 아로마와 진한 맥아의 맛이 어우러져<br />
-              풍부한 풍미를 선사하는 페일에일 맥주입니다.
-            </div>
-            <div class="text mobile movement to-top delay-2">
-              <em>제주 펠롱 에일</em>은 반딧불이 반짝이는 곶자왈에서<br />영감을 받아 탄생하였습니다.<br />
+            <div class="text movement to-top delay-2">
+              <em>제주 펠롱 에일</em>은 반딧불이 반짝이는 곶자왈에서<br class="only-m" />영감을 받아 탄생하였습니다.<br />
               다양하고 개성있는 홉들을 블렌딩하여<br />
               시트러스 아로마와 진한 맥아의 맛이 어우러져<br />
               풍부한 풍미를 선사하는 페일에일 맥주입니다.
@@ -228,25 +208,18 @@
           <div class="swiper visual-swiper movement to-top delay-3">
             <div class="swiper-wrapper">
               <div class="swiper-slide slide0">
-                <!-- <img src="./img/second_slide0.png" alt="이미지 슬라이드1" /> -->
               </div>
               <div class="swiper-slide slide1">
-                <!-- <img src="./img/second_slide1.jpg" alt="이미지 슬라이드2" /> -->
               </div>
               <div class="swiper-slide slide2">
-                <!-- <img src="./img/second_slide2.jpg" alt="이미지 슬라이드3" /> -->
               </div>
               <div class="swiper-slide slide3">
-                <!-- <img src="./img/second_slide3.jpg" alt="이미지 슬라이드4" /> -->
               </div>
               <div class="swiper-slide slide4">
-                <!-- <img src="./img/second_slide4.jpg" alt="이미지 슬라이드5" /> -->
               </div>
               <div class="swiper-slide slide5">
-                <!-- <img src="./img/second_slide5.jpg" alt="이미지 슬라이드6" /> -->
               </div>
               <div class="swiper-slide slide6">
-                <!-- <img src="./img/second_slide6.jpg" alt="이미지 슬라이드7" /> -->
               </div>
             </div>
             <div class="swiper-prev">
@@ -264,25 +237,18 @@
           <div class="swiper sub-swiper movement to-top delay-4">
             <div class="swiper-wrapper">
               <div class="swiper-slide slide0">
-                <!-- <img src="./img/second_0.png" alt="서브 이미지 슬라이드1" /> -->
               </div>
               <div class="swiper-slide slide1">
-                <!-- <img src="./img/second_1.jpg" alt="서브 이미지 슬라이드2" /> -->
               </div>
               <div class="swiper-slide slide2">
-                <!-- <img src="./img/second_2.jpg" alt="서브 이미지 슬라이드3" /> -->
               </div>
               <div class="swiper-slide slide3">
-                <!-- <img src="./img/second_3.jpg" alt="서브 이미지 슬라이드4" /> -->
               </div>
               <div class="swiper-slide slide4">
-                <!-- <img src="./img/second_4.jpg" alt="서브 이미지 슬라이드5" /> -->
               </div>
               <div class="swiper-slide slide5">
-                <!-- <img src="./img/second_5.jpg" alt="서브 이미지 슬라이드6" /> -->
               </div>
               <div class="swiper-slide slide6">
-                <!-- <img src="./img/second_6.jpg" alt="서브 이미지 슬라이드7" /> -->
               </div>
             </div>
             <div class="swiper-prev">
@@ -310,31 +276,22 @@
           </div>
           <div class="geomeong__description description">
             <img src="./img/geomeongale_img.png" alt="제주 거멍 에일 이미지" class="movement to-top delay-1" />
-            <div class="text pc movement to-top delay-2">
-              <em>제주 거멍 에일</em>은 제주의 여름밤을 떠올리게 하는 짙은 빛깔 속에서,<br />
-              제주 흑보리와 초콜릿 밀로 완성된<br />
-              은은한 달큰함과 경쾌한 풍미를 자아내는 흑맥주입니다.
-            </div>
-            <div class="text mobile movement to-top delay-2">
-              <em>제주 거멍 에일</em>은<br />제주의 여름밤을 떠올리게 하는 짙은 빛깔 속에서,<br />
-              제주 흑보리와 초콜릿 밀로 완성된
-              은은한 달큰함과<br />경쾌한 풍미를 자아내는 흑맥주입니다.
+            <div class="text movement to-top delay-2">
+              <em>제주 거멍 에일</em>은<br class="only-m" />제주의 여름밤을 떠올리게 하는 짙은 빛깔 속에서,<br />
+              제주 흑보리와 초콜릿 밀로 완성된<br class="only-pc" />
+              은은한 달큰함과<br class="only-m" />경쾌한 풍미를 자아내는 흑맥주입니다.
             </div>
           </div>
 
           <div class="swiper visual-swiper movement to-top delay-3">
             <div class="swiper-wrapper">
               <div class="swiper-slide slide0">
-                <!-- <img src="./img/third_slide0.png" alt="이미지 슬라이드1" /> -->
               </div>
               <div class="swiper-slide slide1">
-                <!-- <img src="./img/third_slide1.jpg" alt="이미지 슬라이드2" /> -->
               </div>
               <div class="swiper-slide slide2">
-                <!-- <img src="./img/third_slide2.jpg" alt="이미지 슬라이드3" /> -->
               </div>
               <div class="swiper-slide slide3">
-                <!-- <img src="./img/third_slide3.jpg" alt="이미지 슬라이드4" /> -->
               </div>
             </div>
             <div class="swiper-prev">
@@ -352,16 +309,12 @@
           <div class="swiper sub-swiper movement to-top delay-4">
             <div class="swiper-wrapper">
               <div class="swiper-slide slide0">
-                <!-- <img src="./img/third_0.png" alt="서브 이미지 슬라이드1" /> -->
               </div>
               <div class="swiper-slide slide1">
-                <!-- <img src="./img/third_1.jpg" alt="서브 이미지 슬라이드2" /> -->
               </div>
               <div class="swiper-slide slide2">
-                <!-- <img src="./img/third_2.jpg" alt="서브 이미지 슬라이드3" /> -->
               </div>
               <div class="swiper-slide slide3">
-                <!-- <img src="./img/third_3.jpg" alt="서브 이미지 슬라이드4" /> -->
               </div>
             </div>
             <div class="swiper-prev">
@@ -435,7 +388,7 @@
 
       </div>
     </section>
-    
+
   </main>
 
   <!-- FOOTER -->

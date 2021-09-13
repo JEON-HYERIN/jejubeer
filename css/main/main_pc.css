@@ -259,7 +259,7 @@ br.only-pc {
 
 /* YOUTUBE */
 #youtube {
-  background-image: url("../img/youtube_bg.png");
+  background-image: url("../../img/youtube_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -322,7 +322,7 @@ br.only-pc {
 
 /* jeju wit ale */
 #products .wit {
-  background-image: url("../img/witale_bg.png");
+  background-image: url("../../img/witale_bg.png");
 }
 
 #products .wit .wit__title {
@@ -339,34 +339,34 @@ br.only-pc {
 }
 
 #products .wit .swiper.visual-swiper .swiper-slide.slide0 {
-  background-image: url("../img/first_slide0.png");
+  background-image: url("../../img/first_slide0.png");
 }
 #products .wit .swiper.visual-swiper .swiper-slide.slide1 {
-  background-image: url("../img/first_slide1.jpg");
+  background-image: url("../../img/first_slide1.jpg");
 }
 #products .wit .swiper.visual-swiper .swiper-slide.slide2 {
-  background-image: url("../img/first_slide2.jpg");
+  background-image: url("../../img/first_slide2.jpg");
 }
 #products .wit .swiper.visual-swiper .swiper-slide.slide3 {
-  background-image: url("../img/first_slide3.jpg");
+  background-image: url("../../img/first_slide3.jpg");
 }
 
 #products .wit .swiper.sub-swiper .swiper-slide.slide0 {
-  background-image: url("../img/first_0.png");
+  background-image: url("../../img/first_0.png");
 }
 #products .wit .swiper.sub-swiper .swiper-slide.slide1 {
-  background-image: url("../img/first_1.jpg");
+  background-image: url("../../img/first_1.jpg");
 }
 #products .wit .swiper.sub-swiper .swiper-slide.slide2 {
-  background-image: url("../img/first_2.jpg");
+  background-image: url("../../img/first_2.jpg");
 }
 #products .wit .swiper.sub-swiper .swiper-slide.slide3 {
-  background-image: url("../img/first_3.jpg");
+  background-image: url("../../img/first_3.jpg");
 }
 
 /* jeju pellong ale */
 #products .pellong {
-  background-image: url("../img/pellongale_bg.png");
+  background-image: url("../../img/pellongale_bg.png");
 }
 
 #products .pellong .pellong__title {
@@ -383,54 +383,54 @@ br.only-pc {
 }
 
 #products .pellong .swiper.visual-swiper .swiper-slide.slide0 {
-  background-image: url("../img/second_slide0.png");
+  background-image: url("../../img/second_slide0.png");
 }
 #products .pellong .swiper.visual-swiper .swiper-slide.slide1 {
-  background-image: url("../img/second_slide1.jpg");
+  background-image: url("../../img/second_slide1.jpg");
 }
 #products .pellong .swiper.visual-swiper .swiper-slide.slide2 {
-  background-image: url("../img/second_slide2.jpg");
+  background-image: url("../../img/second_slide2.jpg");
 }
 #products .pellong .swiper.visual-swiper .swiper-slide.slide3 {
-  background-image: url("../img/second_slide3.jpg");
+  background-image: url("../../img/second_slide3.jpg");
 }
 #products .pellong .swiper.visual-swiper .swiper-slide.slide4 {
-  background-image: url("../img/second_slide4.jpg");
+  background-image: url("../../img/second_slide4.jpg");
 }
 #products .pellong .swiper.visual-swiper .swiper-slide.slide5 {
-  background-image: url("../img/second_slide5.jpg");
+  background-image: url("../../img/second_slide5.jpg");
 }
 #products .pellong .swiper.visual-swiper .swiper-slide.slide6 {
-  background-image: url("../img/second_slide6.jpg");
+  background-image: url("../../img/second_slide6.jpg");
 }
 
 
 #products .pellong .swiper.sub-swiper .swiper-slide.slide0 {
-  background-image: url("../img/second_0.png");
+  background-image: url("../../img/second_0.png");
 }
 #products .pellong .swiper.sub-swiper .swiper-slide.slide1 {
-  background-image: url("../img/second_1.jpg");
+  background-image: url("../../img/second_1.jpg");
 }
 #products .pellong .swiper.sub-swiper .swiper-slide.slide2 {
-  background-image: url("../img/second_2.jpg");
+  background-image: url("../../img/second_2.jpg");
 }
 #products .pellong .swiper.sub-swiper .swiper-slide.slide3 {
-  background-image: url("../img/second_3.jpg");
+  background-image: url("../../img/second_3.jpg");
 }
 #products .pellong .swiper.sub-swiper .swiper-slide.slide4 {
-  background-image: url("../img/second_4.jpg");
+  background-image: url("../../img/second_4.jpg");
 }
 #products .pellong .swiper.sub-swiper .swiper-slide.slide5 {
-  background-image: url("../img/second_5.jpg");
+  background-image: url("../../img/second_5.jpg");
 }
 #products .pellong .swiper.sub-swiper .swiper-slide.slide6 {
-  background-image: url("../img/second_6.jpg");
+  background-image: url("../../img/second_6.jpg");
 }
 
 
 /* jeju geomeong ale */
 #products .geomeong {
-  background-image: url("../img/geomeongale_bg.png");
+  background-image: url("../../img/geomeongale_bg.png");
 }
 
 #products .geomeong .inner {
@@ -451,29 +451,29 @@ br.only-pc {
 }
 
 #products .geomeong .swiper.visual-swiper .swiper-slide.slide0 {
-  background-image: url("../img/third_slide0.png");
+  background-image: url("../../img/third_slide0.png");
 }
 #products .geomeong .swiper.visual-swiper .swiper-slide.slide1 {
-  background-image: url("../img/third_slide1.jpg");
+  background-image: url("../../img/third_slide1.jpg");
 }
 #products .geomeong .swiper.visual-swiper .swiper-slide.slide2 {
-  background-image: url("../img/third_slide2.jpg");
+  background-image: url("../../img/third_slide2.jpg");
 }
 #products .geomeong .swiper.visual-swiper .swiper-slide.slide3 {
-  background-image: url("../img/third_slide3.jpg");
+  background-image: url("../../img/third_slide3.jpg");
 }
 
 #products .geomeong .swiper.sub-swiper .swiper-slide.slide0 {
-  background-image: url("../img/third_0.png");
+  background-image: url("../../img/third_0.png");
 }
 #products .geomeong .swiper.sub-swiper .swiper-slide.slide1 {
-  background-image: url("../img/third_1.jpg");
+  background-image: url("../../img/third_1.jpg");
 }
 #products .geomeong .swiper.sub-swiper .swiper-slide.slide2 {
-  background-image: url("../img/third_2.jpg");
+  background-image: url("../../img/third_2.jpg");
 }
 #products .geomeong .swiper.sub-swiper .swiper-slide.slide3 {
-  background-image: url("../img/third_3.jpg");
+  background-image: url("../../img/third_3.jpg");
 }
 
 /* STORE */
@@ -746,11 +746,11 @@ br.only-pc {
 .inquiry .top .inquiry__description span:first-child::after {
   width: 22px;
   height: 22px;
-  background-image: url("../img/on.png");
+  background-image: url("../../img/on.png");
 }
 
 .inquiry .top .inquiry__description span.night::after {
-  background-image: url("../img/moon.png");
+  background-image: url("../../img/moon.png");
 }
 
 .inquiry .top .inquiry__description span.inquiry__description__hours {
@@ -761,7 +761,7 @@ br.only-pc {
 .inquiry .top .inquiry__description span.inquiry__description__hours::after {
   width: 14px;
   height: 14px;
-  background-image: url("../img/clock.png");
+  background-image: url("../../img/clock.png");
   margin-left: 5px;
 }
 

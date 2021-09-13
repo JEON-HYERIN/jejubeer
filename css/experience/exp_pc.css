@@ -52,7 +52,7 @@ br.only-m::after {
 
 /* VISUAL */
 #visual {
-  background-image: url("../img/experience/visual_bg.jpg");
+  background-image: url("../../img/experience/visual_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -93,10 +93,10 @@ br.only-m::after {
 }
 
 #slogan .swiper.visual-swiper .swiper-slide.slide0 {
-  background-image: url("../img/experience/slogan_slide0.jpg");
+  background-image: url("../../img/experience/slogan_slide0.jpg");
 }
 #slogan .swiper.visual-swiper .swiper-slide.slide1 {
-  background-image: url("../img/experience/slogan_slide1.jpg");
+  background-image: url("../../img/experience/slogan_slide1.jpg");
 }
 
 #slogan .swiper.visual-swiper .swiper-pagination-bullet {
@@ -137,18 +137,18 @@ br.only-m::after {
 }
 
 #slogan .swiper.sub-swiper .swiper-slide.slide0 {
-  background-image: url("../img/experience/slogan_sub_slide0.jpg");
+  background-image: url("../../img/experience/slogan_sub_slide0.jpg");
 }
 #slogan .swiper.sub-swiper .swiper-slide.slide1 {
-  background-image: url("../img/experience/slogan_sub_slide1.jpg");
+  background-image: url("../../img/experience/slogan_sub_slide1.jpg");
 }
 #slogan .swiper.sub-swiper .swiper-slide.slide2 {
-  background-image: url("../img/experience/slogan_sub_slide2.jpg");
+  background-image: url("../../img/experience/slogan_sub_slide2.jpg");
 }
 
 /* THEME */
 #theme {
-  background-image: url("../img/experience/theme_bg.png");
+  background-image: url("../../img/experience/theme_bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
