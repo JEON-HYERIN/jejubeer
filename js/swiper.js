@@ -1,4 +1,4 @@
-new Swiper('.swiper.visual-swiper', {
+new Swiper('#products .swiper.visual-swiper', {
   loop: true,
   autoplay: true,
   navigation: {
@@ -7,7 +7,7 @@ new Swiper('.swiper.visual-swiper', {
   }
 });
 
-new Swiper('.swiper.sub-swiper', {
+new Swiper('#products .swiper.sub-swiper', {
   loop: true,
   autoplay: {
     delay: 5000
