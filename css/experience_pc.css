@@ -74,6 +74,64 @@
   width: 100%;
 }
 
+/* SLOAGN */
+#slogan {
+  background-color: #fff;
+}
+
+#slogan .inner {
+  padding: 100px 0;
+}
+
+#slogan .swiper.visual-swiper .swiper-slide.slide0 {
+  background-image: url("../img/experience/slogan_slide0.jpg");
+}
+#slogan .swiper.visual-swiper .swiper-slide.slide1 {
+  background-image: url("../img/experience/slogan_slide1.jpg");
+}
+
+#slogan .swiper.visual-swiper .swiper-pagination-bullet {
+  width: 25px;
+  height: 2px;
+  margin: 5px 7.5px;
+  background-color: #fff;
+  border-radius: 0;
+  opacity: .5;
+}
+
+#slogan .swiper.visual-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+#slogan .text-group {
+  text-align: center;
+  padding: 100px 0;
+}
+
+#slogan .text-group .text {
+  font-size: 26px;
+  color: #3d464b;
+}
+
+#slogan .text-group .text.text2 {
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+#slogan .swiper.sub-swiper {
+  height: 520px;
+}
+
+#slogan .swiper.sub-swiper .swiper-slide.slide0 {
+  background-image: url("../img/experience/slogan_sub_slide0.jpg");
+}
+#slogan .swiper.sub-swiper .swiper-slide.slide1 {
+  background-image: url("../img/experience/slogan_sub_slide1.jpg");
+}
+#slogan .swiper.sub-swiper .swiper-slide.slide2 {
+  background-image: url("../img/experience/slogan_sub_slide2.jpg");
+}
+
 /* THEME */
 #theme {
   background-image: url("../img/experience/theme_bg.png");

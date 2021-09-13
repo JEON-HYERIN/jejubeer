@@ -1,4 +1,4 @@
-new Swiper('#products .swiper.visual-swiper', {
+new Swiper('.swiper.visual-swiper', {
   loop: true,
   autoplay: true,
   navigation: {
@@ -59,4 +59,24 @@ new Swiper('#store .swiper', {
       spaceBetween: 5
     },
   },
+});
+
+// MY CAMPING CAR
+new Swiper('#slogan .swiper.visual-swiper', {
+  loop: true,
+  autoplay: true,
+  navigation: {
+    prevEl: '.swiper-prev',
+    nextEl: '.swiper-next'
+  },
+  pagination: {
+    el: '#slogan .swiper-pagination',
+    clickable: true
+  }
+});
+
+new Swiper('#slogan .swiper.sub-swiper', {
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 5,
 });
