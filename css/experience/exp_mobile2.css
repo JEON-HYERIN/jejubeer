@@ -5,6 +5,11 @@
     content: normal;
   }
 
+  /* SWIPER */
+  #slogan .swiper.visual-swiper {
+    max-height: 350px;
+  }
+
   /* HEADER */
   #header.white {
     background-color: #fff;

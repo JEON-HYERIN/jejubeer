@@ -29,14 +29,6 @@
   }
   
   /* SWIPER */
-  .swiper.visual-swiper {
-    max-height: 350px;
-  }
-
-  .swiper.sub-swiper {
-    max-height: 200px;
-  }
-
   .swiper.visual-swiper .swiper-prev,
   .swiper.visual-swiper .swiper-next,
   .swiper.sub-swiper .swiper-prev,
@@ -50,6 +42,14 @@
   .swiper.sub-swiper .swiper-prev span,
   .swiper.sub-swiper .swiper-next span {
     font-size: 20px;
+  }
+
+  #products .swiper.visual-swiper {
+    max-height: 350px;
+  }
+
+  #products .swiper.sub-swiper {
+    max-height: 200px;
   }
 
   #store .swiper {

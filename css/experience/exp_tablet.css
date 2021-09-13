@@ -1,9 +1,18 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
   /* COMMON */
+  .pc {
+    display: none !important;
+  }
+  
   br.only-m,
   br.only-m::after {
     content: normal;
   }
+
+  /* SWIPER */
+  #slogan .swiper.visual-swiper {
+    min-height: 1000px;
+  }  
 
   /* HEADER */
   #header.white {

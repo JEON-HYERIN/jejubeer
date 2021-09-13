@@ -784,12 +784,10 @@ br.only-pc {
   color: rgb(255, 255, 255);
   opacity: 0;
   transition: opacity 250ms;
-  visibility: hidden;
 }
 
 .inquiry .top .inquiry__description .business-hours.open {
   opacity: 1;
-  visibility: visible;
 }
 
 .inquiry .bottom .channel-talk {
