@@ -42,6 +42,14 @@ button, .btn {
   cursor: pointer;
 }
 
+br.only-m {
+  content: '';
+}
+
+br.only-m::after {
+  content: '\00a0';
+}
+
 /* 키보드로 버튼에 포커스 시 */
 button:focus-visible {
   outline: 3px solid #000;

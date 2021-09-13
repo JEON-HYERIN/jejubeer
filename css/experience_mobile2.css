@@ -1,4 +1,12 @@
 @media screen and (min-width: 280px) and (max-width: 359px) {
+  /* COMMON */
+  .web {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
 
   /* HEADER */
   #header.white {
@@ -34,6 +42,27 @@
     display: flex;
     flex-direction: column;
   }
+
+    /* SLOGAN */
+    #slogan .inner {
+      padding: 50px 0;
+    }
+  
+    #slogan .text-group {
+      padding: 30px 10px 0 10px;
+    }
+  
+    #slogan .text-group .text {
+      font-size: 16px;
+    }
+
+    #slogan .text-group .text.text2 {
+      margin-top: 30px;
+    }
+
+    #slogan .swiper.sub-swiper {
+      display: none;
+    }
 
   /* THEME */
   #theme .inner {

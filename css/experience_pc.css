@@ -1,3 +1,12 @@
+/* COMMON */
+.web {
+  display: block !important;
+}
+
+.mobile {
+  display: none !important;
+}
+
 /* HEADER */
 #header {
   background-color: transparent;
@@ -118,7 +127,12 @@
   margin-top: 60px;
 }
 
+#slogan .swiper.visual-swiper {
+  padding-bottom: 0;
+}
+
 #slogan .swiper.sub-swiper {
+  display: block;
   height: 520px;
 }
 
