@@ -1,13 +1,4 @@
 @media screen and (min-width: 280px) and (max-width: 359px) {
-  /* COMMON */
-  .web {
-    display: none !important;
-  }
-
-  .mobile {
-    display: block !important;
-  }
-
   /* HEADER */
   #header.white {
     background-color: #fff;

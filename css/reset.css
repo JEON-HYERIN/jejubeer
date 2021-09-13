@@ -3,8 +3,15 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 a {
-  text-decoration: none;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 ul,
@@ -14,6 +21,7 @@ li {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 h1,
@@ -34,20 +42,13 @@ em {
   font-weight: 700;
 }
 
-button, .btn {
+button,
+.btn {
   display: block;
   border: none;
   text-align: center;
   background-color: transparent;
   cursor: pointer;
-}
-
-br.only-m {
-  content: '';
-}
-
-br.only-m::after {
-  content: '\00a0';
 }
 
 /* 키보드로 버튼에 포커스 시 */
@@ -62,5 +63,23 @@ button:focus:not(:focus-visible) {
 
 .hide {
   position: absolute;
-  left: -5000px;
+  left: -9999px;
+}
+
+#skip-nav {
+  position: fixed;
+  left: 0;
+  top: -40px;
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .8);
+  color: #fff;
+  font-size: 16px;
+  z-index: 9;
+  transition: top .3s;
+}
+
+#skip-nav:focus {
+  top: 0;
 }

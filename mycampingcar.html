@@ -1,50 +1,67 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-title" content="제주맥주 나만의 캠핑카" />
+  <meta name="description" content="당신의 일상을 여행으로, 오직 나를 위한 풀옵션 커스텀 캠핑카가 매주 무료!" />
+
   <title>제주맥주 나만의 캠핑카</title>
-  <!-- 웹폰트 -->
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="제주맥주 나만의 캠핑카" />
+  <meta property="og:title" content="제주맥주 나만의 캠핑카" />
+  <meta property="og:description" content="당신의 일상을 여행으로, 오직 나를 위한 풀옵션 커스텀 캠핑카가 매주 무료!" />
+  <meta property="og:image" content="./img/experience/experience.png" />
+  <meta property="og:url" content="https://jeon-hyerin.github.io/jejubeer" />
+
+    <!--Twitter Card-->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="제주맥주 나만의 캠핑카" />
+  <meta property="twitter:title" content="제주맥주 나만의 캠핑카" />
+  <meta property="twitter:description" content="당신의 일상을 여행으로, 오직 나를 위한 풀옵션 커스텀 캠핑카가 매주 무료!" />
+  <meta property="twitter:image" content="./img/experience/experience.png" />
+  <meta property="twitter:url" content="https://jeon-hyerin.github.io/jejubeer" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.ico" />
+  <!-- Google Fonts - Noto Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
-
-  <!-- 구글아이콘 -->
+  <!-- Google Material Icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-
-  <!-- FONT AWESOME -->
+  <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/254318af28.js" crossorigin="anonymous"></script>
-
-  <!-- FAVICON -->
-  <link rel="icon" href="./favicon.ico" />
-
-  <!-- SWIPER -->
+  <!-- Swiper -->
   <link
   rel="stylesheet"
   href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
   />
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-  <!-- SCROLLMAGIC -->
+  <!-- ScrollMagic -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
 
   <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/style_pc.css" />
-  <link rel="stylesheet" href="./css/style_tablet.css" media="screen and (min-width:768px) and (max-width:1023px)" />
-  <link rel="stylesheet" href="./css/style_mobile.css" media="screen and (min-width:360px) and (max-width:767px)" />
-  <link rel="stylesheet" href="./css/style_mobile2.css" media="screen and (min-width:280px) and (max-width:359px)" />
+  <link rel="stylesheet" href="./css/main_pc.css" />
+  <link rel="stylesheet" href="./css/main_tablet.css" media="screen and (min-width:768px) and (max-width:1023px)" />
+  <link rel="stylesheet" href="./css/main_mobile.css" media="screen and (min-width:360px) and (max-width:767px)" />
+  <link rel="stylesheet" href="./css/main_mobile2.css" media="screen and (min-width:280px) and (max-width:359px)" />
 
-  <link rel="stylesheet" href="./css/experience_pc.css" />
-  <link rel="stylesheet" href="./css/experience_tablet.css" media="screen and (min-width:768px) and (max-width:1023px)" />
-  <link rel="stylesheet" href="./css/experience_mobile.css" media="screen and (min-width:360px) and (max-width:767px)" />
-  <link rel="stylesheet" href="./css/experience_mobile2.css" media="screen and (min-width:280px) and (max-width:359px)" />
+  <link rel="stylesheet" href="./css/exp_pc.css" />
+  <link rel="stylesheet" href="./css/exp_tablet.css" media="screen and (min-width:768px) and (max-width:1023px)" />
+  <link rel="stylesheet" href="./css/exp_mobile.css" media="screen and (min-width:360px) and (max-width:767px)" />
+  <link rel="stylesheet" href="./css/exp_mobile2.css" media="screen and (min-width:280px) and (max-width:359px)" />
   <script defer src="./js/scrollmagic.js"></script>
   <script defer src="./js/swiper.js"></script>
   <script defer src="./js/youtube.js"></script>
   <script defer src="./js/main.js"></script>
 </head>
 <body>
+  <a href="#main" id="skip-nav">본문 바로가기</a>
+
   <!-- HEADER -->
   <header id="header">
     <div class="inner">
@@ -79,96 +96,99 @@
     </div>
   </header>
 
-  <!-- VIDEO -->
-  <section id="video">
-    <h3 class="hide">VIDEO</h3>
-    <video src="./video/jb_experience_campingcar_web.mp4" class="video--web" autoplay muted loop preload="metadata"
-      playsinline></video>
-    <video src="./video/jb_experience_campingcar_mo.mp4" class="video--mob" autoplay muted loop preload="metadata"
-      playsinline></video>
+  <main id="main">
+    <!-- VIDEO -->
+    <section id="video">
+      <h3 class="hide">VIDEO</h3>
+      <video src="./video/jb_experience_campingcar_web.mp4" class="pc" autoplay muted loop preload="metadata"
+        playsinline></video>
+      <video src="./video/jb_experience_campingcar_mo.mp4" class="mobile" autoplay muted loop preload="metadata"
+        playsinline></video>
 
       <div class="video__title">
         <span>#제주맥주</span>
         <span>#나만의캠핑카</span>
         <span>#매주신청가능</span>
       </div>
-  </section>
+    </section>
 
-  <!-- VISUAL -->
-  <section id="visual">
-    <div class="inner">
+    <!-- VISUAL -->
+    <section id="visual">
+      <div class="inner">
 
-      <div class="text-group">
-        <div class="text text1">
-          <img src="./img/experience/visual_text1.png"
-            alt="'이번 주말은 진짜 푹 쉬어야지', '뭘했다고 주말이 또 갔지'의 반복, 나를 위한 여백이 흐르는 시간, 작은 여행이 간절해" />
+        <div class="text-group">
+          <div class="text text1">
+            <img src="./img/experience/visual_text1.png"
+              alt="'이번 주말은 진짜 푹 쉬어야지', '뭘했다고 주말이 또 갔지'의 반복, 나를 위한 여백이 흐르는 시간, 작은 여행이 간절해" />
+          </div>
+          <div class="text text2">
+            <img src="./img/experience/visual_text2.png" alt="한 번도 가보지 않았지만 이미 마음이 닿아있는 곳. 분명 있을거예요." />
+          </div>
         </div>
-        <div class="text text2">
-          <img src="./img/experience/visual_text2.png" alt="한 번도 가보지 않았지만 이미 마음이 닿아있는 곳. 분명 있을거예요." />
+
+      </div>
+    </section>
+
+    <!-- SLOGAN-->
+    <section id="slogan">
+      <div class="inner">
+
+        <div class="swiper visual-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide0"></div>
+            <div class="swiper-slide slide1"></div>
+          </div>
+
+          <div class="swiper-prev">
+            <span class="material-icons">
+              arrow_back_ios
+            </span>
+          </div>
+          <div class="swiper-next">
+            <span class="material-icons">
+              arrow_forward_ios
+            </span>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="text-group">
+          <p class="text text1">
+            오롯이 나를 위한 쉼이 필요할 때,<br />
+            사랑하는 이들과 시간 가는 줄 모르고 놀고 싶을 때,<br />
+            하루를 새롭게 바꿔줄 무드가 필요할 때,
+          </p>
+          <p class="text text2 web">
+            아무것도 준비하지 말고<br />
+            제주맥주 나만의 캠핑카에 탑승하세요.<br />
+            당신의 일상을 조금만 움직여,&nbsp;특별한 순간으로 만들어 드릴게요.
+          </p>
+          <p class="text text2 mobile">
+            아무것도 준비하지 말고<br />
+            제주맥주 나만의 캠핑카에 탑승하세요.<br />
+            당신의 일상을 조금만 움직여,&nbsp;<br />특별한 순간으로 만들어 드릴게요.
+          </p>
+        </div>
+
+        <div class="swiper sub-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide0"></div>
+            <div class="swiper-slide slide1"></div>
+            <div class="swiper-slide slide2"></div>
+          </div>
         </div>
       </div>
+    </section>
 
-    </div>
-  </section>
-
-  <!-- SLOGAN-->
-  <section id="slogan">
-    <div class="inner">
-
-      <div class="swiper visual-swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide slide0"></div>
-          <div class="swiper-slide slide1"></div>
-        </div>
-
-        <div class="swiper-prev">
-          <span class="material-icons">
-            arrow_back_ios
-          </span>
-        </div>
-        <div class="swiper-next">
-          <span class="material-icons">
-            arrow_forward_ios
-          </span>
-        </div>
-
-        <div class="swiper-pagination"></div>
+    <!-- THEME -->
+    <section id="theme">
+      <div class="inner">
+        <img src="./img/experience/theme_title.gif" alt="당신의 일상을 더 특별한 순간으로" class="theme__title" />
       </div>
+    </section>
 
-      <div class="text-group">
-        <p class="text text1">
-          오롯이 나를 위한 쉼이 필요할 때,<br />
-          사랑하는 이들과 시간 가는 줄 모르고 놀고 싶을 때,<br />
-          하루를 새롭게 바꿔줄 무드가 필요할 때,
-        </p>
-        <p class="text text2 web">
-          아무것도 준비하지 말고<br />
-          제주맥주 나만의 캠핑카에 탑승하세요.<br />
-          당신의 일상을 조금만 움직여,&nbsp;특별한 순간으로 만들어 드릴게요.
-        </p>
-        <p class="text text2 mobile">
-          아무것도 준비하지 말고<br />
-          제주맥주 나만의 캠핑카에 탑승하세요.<br />
-          당신의 일상을 조금만 움직여,&nbsp;<br />특별한 순간으로 만들어 드릴게요.
-        </p>
-      </div>
-
-      <div class="swiper sub-swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide slide0"></div>
-          <div class="swiper-slide slide1"></div>
-          <div class="swiper-slide slide2"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- THEME -->
-  <section id="theme">
-    <div class="inner">
-      <img src="./img/experience/theme_title.gif" alt="당신의 일상을 더 특별한 순간으로" class="theme__title" />
-    </div>
-  </section>
+  </main>
 
   <!-- FOOTER -->
   <footer id="footer">
@@ -200,13 +220,13 @@
       </div>
 
       <div class="bottom">
-        <div class="info info--web">
+        <div class="info pc">
           <span>제주맥주 주식회사&nbsp;&nbsp;대표이사 문혁기</span><br />
           <span>본사) 제주특별자치도 제주시 한림읍 금능농공길 62-11&nbsp;&nbsp;서울사무실) 서울특별시 중구 동호로 228 동호 38빌딩 6층</span><br />
           <span>호스팅 제공자 (주)아임웹&nbsp;&nbsp;사업자등록번호 616-86-27415&nbsp;&nbsp;통신판매업신고번호 제 2020-제주한림-0101 호</span><br />
           <span>개인정보보호책임자 이용석&nbsp;&nbsp;고객센터 02-2235-5559, jejubeer@jejubeer.co.kr</span>
         </div>
-        <div class="info info--mob">
+        <div class="info mobile">
           <span>제주맥주 주식회사&nbsp;&nbsp;대표 문혁기</span><br />
           <span>본사) 제주특별자치도 제주시 한림읍 금능농공길 62-11<br />서울사무실) 서울특별시 중구 동호로 228 동호 38빌딩 6층</span><br />
           <span>호스팅 제공자 (주)아임웹<br />사업자등록번호 616-86-27415<br />통신판매업신고번호 제 2020-제주한림-0101 호</span><br />

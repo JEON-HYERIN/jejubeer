@@ -1,12 +1,3 @@
-/* COMMON */
-.web {
-  display: block !important;
-}
-
-.mobile {
-  display: none !important;
-}
-
 /* HEADER */
 #header {
   background-color: transparent;

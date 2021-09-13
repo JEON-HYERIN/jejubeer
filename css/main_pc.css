@@ -1,8 +1,10 @@
 /* COMMON */
-body {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+.mobile {
+  display: none !important;
+}
+
+.pc {
+  display: block !important;
 }
 
 /* SWIPER */
@@ -233,14 +235,6 @@ body {
   width: 100%;
 }
 
-#video video.video--web {
-  display: block;
-}
-
-#video video.video--mob {
-  display: none;
-}
-
 #video .video__title {
   max-width: 790px;
   margin: 0 auto;
@@ -312,14 +306,6 @@ body {
   font-size: 20px;
   color: #fff;
   font-weight: 400;
-}
-
-#products .product .description .text.text--web {
-  display: block;
-}
-
-#products .product .description .text.text--mob {
-  display: none;
 }
 
 /* jeju wit ale */
@@ -548,17 +534,9 @@ body {
 }
 
 #footer .bottom .info {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   margin-bottom: 15px;
-}
-
-#footer .bottom .info.info--web {
-  display: block;
-}
-
-#footer .bottom .info.info--mob {
-  display: none;
 }
 
 #footer .bottom .info span {

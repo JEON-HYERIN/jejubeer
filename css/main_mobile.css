@@ -1,4 +1,11 @@
 @media screen and (min-width: 360px) and (max-width: 767px) {
+  .pc {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
 
   /* SWIPER */
   .swiper.visual-swiper {
