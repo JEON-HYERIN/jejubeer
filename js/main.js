@@ -118,7 +118,6 @@ const themeContents = document.querySelectorAll('.theme__content');
 
 themeMenu.addEventListener('click', function (event) {
   const filter = event.target.dataset.filter || event.target.parentElement.dataset.filter;
-  console.dir(event.target)
   if (filter === null || filter === undefined) {
     return;
   }
