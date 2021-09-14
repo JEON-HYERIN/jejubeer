@@ -160,4 +160,41 @@
     padding: 0 10px;
     letter-spacing: -0.5px;
   }
+
+  /* GIFT */
+  #gift {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  #gift .inner {
+    padding: 50px 0;
+  }
+
+  #gift .gift__title {
+    font-size: 24px;
+  }
+
+  #gift .today-gift {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+
+  #gift .today-gift img {
+    width: 140px;
+    margin-bottom: 10px;
+  }
+
+  #gift .today-gift > div {
+    padding-left: 0;
+  }
+
+  #gift .today-gift > div .title {
+    font-size: 17px;
+  }
+
+  #gift .today-gift > div .description:first-of-type,
+  #gift .today-gift > div .description:last-of-type {
+    font-size: 15px;
+  }
 }

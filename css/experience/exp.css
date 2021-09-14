@@ -368,12 +368,11 @@ br.only-m::after {
 
 #gift .mark {
   width: 250px;
-  height: 35px;
+  line-height: 35px;
   border-radius: 50px;
   font-weight: 700;
   color: #6ad1d6;
   background-color: #fff;
-  
 }
 
 #gift .gift__title {
@@ -398,6 +397,7 @@ br.only-m::after {
 }
 
 #gift .today-gift > div .title {
+  font-weight: 500;
   font-size: 26px;
 }
 
@@ -411,14 +411,11 @@ br.only-m::after {
 
 #gift .image-group {
   display: flex;
+  justify-content: space-between;
 }
 
 #gift .image-group img {
-  width: 30%;
-}
-
-#gift .image-group img ~ img {
-  margin-left: 20px;
+  width: 32%;
 }
 
 /* QUESTION AND ANSWER */
@@ -451,7 +448,7 @@ br.only-m::after {
 
 #question-and-answer dl::after {
   content: '';
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   left: 40px;
   width: 1000px;
