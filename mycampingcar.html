@@ -772,5 +772,37 @@
     </div>
 
   </div>
+
+  <script>
+    const urlBtn2 = document.querySelector('#together .url-btn');
+    urlBtn2.addEventListener('click', function () {
+      alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
+    });
+
+    // 테마메뉴 필터링
+    const themeMenu = document.querySelector('.theme__menu');
+    const themeContents = document.querySelectorAll('.theme__content');
+
+    themeMenu.addEventListener('click', function (event) {
+      const filter = event.target.dataset.filter || event.target.parentElement.dataset.filter;
+      if (filter === null || filter === undefined) {
+        return;
+      }
+
+      themeContents.forEach(function (themeContent) {
+        if (filter === themeContent.dataset.type) {
+          themeContent.classList.remove('invisible');
+        } else {
+          themeContent.classList.add('invisible');
+        }
+
+        const themeMenuBtn = themeMenu.querySelector('button.selected');
+        if (themeMenuBtn !== null) {
+          themeMenuBtn.classList.remove('selected');
+        }
+        event.target.classList.add('selected');
+      });
+    });
+  </script>
 </body>
 </html>

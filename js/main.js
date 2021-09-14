@@ -42,11 +42,7 @@ shareEl.addEventListener('click', function () {
 
 // url버튼 클릭시 alert 실행
 const urlBtn = shareEl.querySelector('.url-btn');
-const urlBtn2 = document.querySelector('#together .url-btn');
 urlBtn.addEventListener('click', function() {
-  alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
-});
-urlBtn2.addEventListener('click', function() {
   alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
 });
 
@@ -114,31 +110,6 @@ const inquiryHours = inquiryEl.querySelector('.inquiry__description__hours');
 const inquiryHoursOpen = inquiryEl.querySelector('.business-hours');
 inquiryHours.addEventListener('click', function () {
   inquiryHoursOpen.classList.toggle('open');
-});
-
-// 테마메뉴 필터링
-const themeMenu = document.querySelector('.theme__menu');
-const themeContents = document.querySelectorAll('.theme__content');
-
-themeMenu.addEventListener('click', function (event) {
-  const filter = event.target.dataset.filter || event.target.parentElement.dataset.filter;
-  if (filter === null || filter === undefined) {
-    return;
-  }
-
-  themeContents.forEach(function (themeContent) {
-    if (filter === themeContent.dataset.type) {
-      themeContent.classList.remove('invisible');
-    } else {
-      themeContent.classList.add('invisible');
-    }
-
-    const themeMenuBtn = themeMenu.querySelector('button.selected');
-    if (themeMenuBtn !== null) {
-      themeMenuBtn.classList.remove('selected');
-    }
-    event.target.classList.add('selected');
-  });
 });
 
 // 메뉴버튼 활성화
