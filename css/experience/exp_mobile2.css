@@ -1,5 +1,13 @@
 @media screen and (max-width: 359px) {
   /* COMMON */
+  .pc {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+  
   br.only-m,
   br.only-m::after {
     content: normal;

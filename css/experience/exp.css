@@ -1,4 +1,12 @@
 /* COMMON */
+.mobile {
+  display: none !important;
+}
+
+.pc {
+  display: block !important;
+}
+
 br.only-m {
   content: '';
 }

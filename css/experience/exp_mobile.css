@@ -1,5 +1,13 @@
 @media screen and (min-width: 360px) and (max-width: 767px) {
   /* COMMON */
+  .pc {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+  
   br.only-m,
   br.only-m::after {
     content: normal;
@@ -119,7 +127,6 @@
     font-size: 18px;
     width: 70%;
     margin: 0 auto;
-    padding: 0;
   }
 
   #theme .theme__content .version span::after {
@@ -133,10 +140,10 @@
   }
 
   #theme .theme__content.first .left .description p:last-child,
-#theme .theme__content.second .right .description p:last-child,
-#theme .theme__content.third .left .description p:last-child {
-  margin: 20px 0;
-}
+  #theme .theme__content.second .right .description p:last-child,
+  #theme .theme__content.third .left .description p:last-child {
+    margin: 20px 0;
+  }
 
   #theme .theme__content .description {
     padding: 0 10px;

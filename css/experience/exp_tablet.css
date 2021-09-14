@@ -3,6 +3,10 @@
   .pc {
     display: none !important;
   }
+
+  .mobile {
+    display: block !important;
+  }
   
   br.only-m,
   br.only-m::after {
@@ -51,5 +55,70 @@
   .visual.visual2 .title {
     max-width: 100%;
     padding-top: 20px;
+  }
+
+  /* THEME */
+  #theme .inner {
+    padding: 50px 0 0 0;
+  }
+
+  #theme .theme__title {
+    font-size: 24px;
+  }
+
+  #theme .theme__description {
+    font-size: 16px;
+    padding: 15px 0 50px 0;
+  }
+
+  #theme .theme__menu li {
+    margin: 0 5px;
+  }
+
+  #theme .theme__menu li button {
+    font-size: 20px;
+    width: 200px;
+  }
+
+  #theme .theme__content {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  #theme .theme__content.second {
+    flex-direction: column-reverse;
+  }
+
+  #theme .theme__content .content span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #theme .theme__content .version {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #theme .theme__content .version span::after {
+    width: 25px;
+    height: 25px;
+  }
+
+  #theme .theme__content .title {
+    font-size: 50px;
+    padding: 0 10px;
+  }
+
+  #theme .theme__content.first .left .description p:last-child,
+  #theme .theme__content.second .right .description p:last-child,
+  #theme .theme__content.third .left .description p:last-child {
+    margin: 20px 0;
+  }
+
+  #theme .theme__content .description {
+    padding: 0 10px;
+    letter-spacing: -0.5px;
   }
 }
