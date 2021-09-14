@@ -782,11 +782,13 @@ br.only-pc {
   border: 1px solid rgba(0, 0, 0, 0.05);
   background-color: rgba(0, 0, 0, 0.9);
   color: rgb(255, 255, 255);
+  pointer-events: none;
   opacity: 0;
   transition: opacity 250ms;
 }
 
 .inquiry .top .inquiry__description .business-hours.open {
+  pointer-events: auto;
   opacity: 1;
 }
 
