@@ -229,10 +229,11 @@ br.only-m::after {
   display: flex;
   justify-content: space-between;
   margin: 100px 0;
+  display: none;
 }
 
-#theme .theme__content.first {
-  /* display: none; */
+#theme .theme__content.selected {
+  display: flex;
 }
 
 #theme .theme__content .content {
@@ -247,11 +248,13 @@ br.only-m::after {
   text-align: left;
 }
 
-#theme .theme__content.first .content span {
+#theme .theme__content.first .content span,
+#theme .theme__content.third .content span {
   bottom: 30px;
 }
 
-#theme .theme__content.first .content:last-child span {
+#theme .theme__content.first .content:last-child span,
+#theme .theme__content.third .content:first-child span {
   top: 30px;
 }
 
@@ -260,14 +263,16 @@ br.only-m::after {
 }
 
 #theme .theme__content.first .left,
-#theme .theme__content.second .right {
+#theme .theme__content.second .right,
+#theme .theme__content.third .left {
   text-align: left;
   font-size: 22px;
   font-weight: 400;
   color: #545759;
 }
 
-#theme .theme__content.first .left {
+#theme .theme__content.first .left,
+#theme .theme__content.third .left {
   flex-basis: 60%;
 }
 #theme .theme__content.second .left {
@@ -290,6 +295,9 @@ br.only-m::after {
 #theme .theme__content.second .version {
   background-color: #1ecad3;
 }
+#theme .theme__content.third .version {
+  background-color: #edac91;
+}
 
 #theme .theme__content .version span::after {
   content: '';
@@ -311,16 +319,19 @@ br.only-m::after {
 }
 
 #theme .theme__content.first .left .description p:last-child,
-#theme .theme__content.second .right .description p:last-child {
+#theme .theme__content.second .right .description p:last-child,
+#theme .theme__content.third .left .description p:last-child {
   margin-top: 20px;
 }
 
 #theme .theme__content.first .left .content,
-#theme .theme__content.second .right .content {
+#theme .theme__content.second .right .content,
+#theme .theme__content.third .left .content {
   margin: 50px 0;
 }
 
-#theme .theme__content.first .right {
+#theme .theme__content.first .right,
+#theme .theme__content.third .right {
   flex-basis: 35%;
 }
 #theme .theme__content.second .right {
@@ -328,6 +339,7 @@ br.only-m::after {
 }
 
 #theme .theme__content.first .right .content ~ .content,
-#theme .theme__content.second .left .content ~ .content {
+#theme .theme__content.second .left .content ~ .content,
+#theme .theme__content.third .right .content ~ .content {
   margin-top: 30px;
 }
