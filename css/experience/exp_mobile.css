@@ -43,6 +43,10 @@
   }
 
   /* VISUAL -1-*/
+  .visual.visual1 {
+    background-attachment: scroll;
+  }
+  
   .visual.visual1 .text-group .text {
     max-width: 350px;
   }
