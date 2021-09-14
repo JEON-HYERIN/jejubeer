@@ -212,7 +212,7 @@
 
   /* TOGETHER */
   #together .inner {
-    padding: 50px 0;
+    padding: 50px 15px;
   }
 
   #together .together__title {
@@ -232,7 +232,7 @@
 
   /* NOTICE */
   #notice .inner {
-    padding: 50px 0;
+    padding: 50px 15px;
   }
 
   #notice .notice__title {
