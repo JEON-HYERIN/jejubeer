@@ -75,9 +75,9 @@ button:focus:not(:focus-visible) {
   text-align: center;
   background-color: rgba(0, 0, 0, .8);
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   z-index: 9;
-  transition: top .3s;
+  transition: .3s;
 }
 
 #skip-nav:focus {
