@@ -130,4 +130,23 @@
   #gift .inner {
     padding: 50px 10px;
   }
+
+  /* QUESTION AND ANSWER */
+  #question-and-answer .inner {
+    padding: 50px 15px;
+  }
+
+  #question-and-answer h2 {
+    font-size: 40px;
+  }
+
+  #question-and-answer dl {
+    font-size: 16px;
+    padding: 20px 0;
+    border-bottom: 1px solid #1ecad3;
+  }
+
+  #question-and-answer dl::after {
+    display: none;
+  }
 }

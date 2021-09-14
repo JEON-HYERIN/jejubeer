@@ -448,10 +448,10 @@ br.only-m::after {
 
 #question-and-answer dl::after {
   content: '';
-  /* position: absolute; */
+  position: absolute;
   bottom: 0;
   left: 40px;
-  width: 1000px;
+  width: 80%;
   height: 1px;
   background-color: #1ecad3;
 
