@@ -75,7 +75,7 @@ button:focus:not(:focus-visible) {
   text-align: center;
   background-color: rgba(0, 0, 0, .8);
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   z-index: 9;
   transition: .3s;
 }
