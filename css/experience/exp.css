@@ -235,6 +235,10 @@ br.only-m::after {
   position: relative;
 }
 
+#theme .theme__content.first {
+  display: none;
+}
+
 #theme .theme__content.first .content span {
   position: absolute;
   left: 30px;
@@ -249,7 +253,7 @@ br.only-m::after {
 }
 
 #theme .theme__content .left {
-  flex-basis: 55%;
+  flex-basis: 60%;
   text-align: left;
   font-size: 22px;
   font-weight: 400;
@@ -296,7 +300,7 @@ br.only-m::after {
 
 
 #theme .theme__content .right {
-  flex-basis: 40%;
+  flex-basis: 35%;
 }
 
 #theme .theme__content .right .content ~ .content {
