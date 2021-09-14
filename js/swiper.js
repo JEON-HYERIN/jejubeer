@@ -1,4 +1,4 @@
-new Swiper('.swiper.visual-swiper', {
+new Swiper('#products .swiper.visual-swiper', {
   loop: true,
   autoplay: true,
   navigation: {
@@ -12,8 +12,6 @@ new Swiper('#products .swiper.sub-swiper', {
   autoplay: {
     delay: 5000
   },
-  // slidesPerView: 3.5,
-  // spaceBetween: 5,
   centeredSlides: true,
   navigation: {
     prevEl: '.swiper-prev',
@@ -27,7 +25,6 @@ new Swiper('#products .swiper.sub-swiper', {
     },
     600: {
       slidesPerView: 3,
-      // slidesPerView: 2,
       spaceBetween: 10
     },
     960: {
@@ -42,8 +39,6 @@ new Swiper('#store .swiper', {
   autoplay: {
     delay: 1000
   },
-  // slidesPerView: 8,
-  // spaceBetween: 5,
   breakpoints: {
     // when window width is >= 320px
     320: {
