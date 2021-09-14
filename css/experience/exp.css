@@ -351,6 +351,76 @@ br.only-m::after {
   margin-top: 30px;
 }
 
+/* GIFT */
+#gift {
+  background-color: #6ad1d6;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+
+#gift .inner {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gift .mark {
+  width: 250px;
+  height: 35px;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #6ad1d6;
+  background-color: #fff;
+  
+}
+
+#gift .gift__title {
+  font-size: 48px;
+  padding: 20px 0;
+}
+
+#gift .today-gift {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+#gift .today-gift img {
+  width: 150px;
+}
+
+#gift .today-gift > div {
+  padding-left: 30px;
+  text-align: left;
+}
+
+#gift .today-gift > div .title {
+  font-size: 26px;
+}
+
+#gift .today-gift > div .description:first-of-type {
+  padding: 10px 0;
+}
+
+#gift .today-gift > div .description:last-of-type {
+  font-size: 16px;
+}
+
+#gift .image-group {
+  display: flex;
+}
+
+#gift .image-group img {
+  width: 30%;
+}
+
+#gift .image-group img ~ img {
+  margin-left: 20px;
+}
+
 /* QUESTION AND ANSWER */
 #question-and-answer {
   background-color: #f5f5f5;
