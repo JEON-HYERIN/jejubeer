@@ -34,11 +34,13 @@ small {
 }
 
 em,
-address {
+address,
+strong {
   font-style: normal;
 }
 
-em {
+em,
+strong {
   font-weight: 700;
 }
 
