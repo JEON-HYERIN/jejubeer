@@ -525,3 +525,34 @@ br.only-m::after {
 #together .together__links li ~ li {
   margin-left: 40px;
 }
+
+/* NOTICE */
+#notice {
+  background-color: #ef8470;
+  color: #fff;
+  text-align: center;
+}
+
+#notice .inner {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#notice img {
+  width: 120px;
+}
+
+#notice .notice__title,
+#notice .notice__description {
+  padding-top: 25px;
+}
+
+#notice .notice__title {
+  font-size: 26px;
+}
+
+#notice .notice__description {
+  font-size: 16px;
+}
