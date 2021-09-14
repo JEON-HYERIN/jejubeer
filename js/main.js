@@ -123,18 +123,19 @@ themeMenu.addEventListener('click', function (event) {
     return;
   }
 
-    themeContents.forEach(function (themeContent) {
-      if (filter === themeContent.dataset.type) {
-        themeContent.classList.remove('invisible');
-      } else {
-        themeContent.classList.add('invisible');
-      }
+  themeContents.forEach(function (themeContent) {
+    if (filter === themeContent.dataset.type) {
+      themeContent.classList.remove('invisible');
+    } else {
+      themeContent.classList.add('invisible');
+    }
 
-      const themeMenuBtn = themeMenu.querySelector('button.selected');
-      if(themeMenuBtn !== null) {
-        themeMenuBtn.classList.remove('selected');
-      } event.target.classList.add('selected');
-    });
+    const themeMenuBtn = themeMenu.querySelector('button.selected');
+    if (themeMenuBtn !== null) {
+      themeMenuBtn.classList.remove('selected');
+    }
+    event.target.classList.add('selected');
+  });
 });
 
 // 메뉴버튼 활성화

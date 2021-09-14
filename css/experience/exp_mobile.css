@@ -70,4 +70,76 @@
     max-width: 100%;
     padding-top: 20px;
   }
+
+  /* THEME */
+  #theme .inner {
+    padding: 50px 0 0 0;
+  }
+
+  #theme .theme__title {
+    font-size: 24px;
+  }
+
+  #theme .theme__description {
+    font-size: 16px;
+    padding: 15px 0 50px 0;
+  }
+
+  #theme .theme__menu li {
+    margin: 0 5px;
+  }
+
+  #theme .theme__menu li button {
+    width: 100px;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  #theme .theme__content {
+    flex-direction: column;
+    margin: 30px 0;
+  }
+
+  #theme .theme__content.second {
+    flex-direction: column-reverse;
+  }
+
+  #theme .theme__content .content span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #theme .theme__content.first .left,
+  #theme .theme__content.second .right,
+  #theme .theme__content.third .left {
+    font-size: 15px;
+  }
+
+  #theme .theme__content .version {
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #theme .theme__content .version span::after {
+    width: 25px;
+    height: 25px;
+  }
+
+  #theme .theme__content .title {
+    font-size: 30px;
+    padding: 0 10px;
+  }
+
+  #theme .theme__content.first .left .description p:last-child,
+#theme .theme__content.second .right .description p:last-child,
+#theme .theme__content.third .left .description p:last-child {
+  margin: 20px 0;
+}
+
+  #theme .theme__content .description {
+    padding: 0 10px;
+    letter-spacing: -0.5px;
+  }
 }
