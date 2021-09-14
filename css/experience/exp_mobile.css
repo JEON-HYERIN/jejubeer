@@ -34,8 +34,8 @@
     font-weight: 400;
   }
 
-  /* VISUAL */
-  #visual .text-group .text {
+  /* VISUAL -1-*/
+  .visual.visual1 .text-group .text {
     max-width: 350px;
   }
 
@@ -61,12 +61,12 @@
   }
   
 
-  /* THEME */
-  #theme .inner {
+  /* VISUAL -2-*/
+  .visual.visual2 .inner {
     height: 600px;
   }
 
-  #theme .theme__title {
+  .visual.visual2 .title {
     max-width: 100%;
     padding-top: 20px;
   }

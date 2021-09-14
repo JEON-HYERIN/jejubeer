@@ -50,37 +50,36 @@ br.only-m::after {
   margin-right: 0;
 }
 
-/* VISUAL */
-#visual {
-  background-image: url("../../img/experience/visual_bg.jpg");
+/* VISUAL -1-*/
+.visual {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.visual.visual1 {
+  background-image: url("../../img/experience/visual1_bg.jpg");
   background-attachment: fixed;
 }
 
-#visual .inner {
+.visual.visual1 .inner {
   height: 100vh;
 }
 
-#visual .text-group .text {
+.visual.visual1 .text-group .text {
   max-width: 547px;
   position: absolute;
   margin: 5px 0;
 }
 
-#visual .text-group .text.text1 {
+.visual.visual1 .text-group .text.text1 {
   top: 100px;
   left: 0;
 }
 
-#visual .text-group .text.text2 {
+.visual.visual1 .text-group .text.text2 {
   bottom: 100px;
   right: 0;
-}
-
-#visual .text-group .text img {
-  width: 100%;
 }
 
 /* SLOAGN */
@@ -155,19 +154,16 @@ br.only-m::after {
   background-image: url("../../img/experience/slogan_slide4.jpg");
 }
 
-/* THEME */
-#theme {
-  background-image: url("../../img/experience/theme_bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+/* VISUAL -2-*/
+.visual.visual2 {
+  background-image: url("../../img/experience/visual2_bg.png");
 }
 
-#theme .inner {
+.visual.visual2 .inner {
   height: 1000px;
 }
 
-#theme .theme__title {
+.visual.visual2 .title {
   width: 930px;
   margin: 0 auto;
   padding-top: 90px;

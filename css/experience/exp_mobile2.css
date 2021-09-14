@@ -33,45 +33,42 @@
     font-size: 14px;
     font-weight: 400;
     padding: 10px;
-  }
-
-  /* VISUAL */
-  #visual .text-group .text {
-    max-width: 350px;
-  }
-
-  #video .video__title {
     display: flex;
     flex-direction: column;
   }
 
-    /* SLOGAN */
-    #slogan .inner {
-      padding: 50px 0;
-    }
+  /* VISUAL -1-*/
+  .visual.visual1 .text-group .text {
+    max-width: 350px;
+  }
+
+  /* SLOGAN */
+  #slogan .inner {
+    padding: 50px 0;
+  }
   
-    #slogan .text-group {
-      padding: 30px 10px 0 10px;
-    }
+  #slogan .text-group {
+    padding: 30px 10px 0 10px;
+  }
   
-    #slogan .text-group .text {
-      font-size: 16px;
-    }
+  #slogan .text-group .text {
+    font-size: 16px;
+  }
 
-    #slogan .text-group .text.text2 {
-      margin-top: 30px;
-    }
+  #slogan .text-group .text.text2 {
+    margin-top: 30px;
+  }
 
-    #slogan .swiper.sub-swiper {
-      display: none;
-    }
+  #slogan .swiper.sub-swiper {
+    display: none;
+  }
 
-  /* THEME */
-  #theme .inner {
+  /* VISUAL -2-*/
+  .visual.visual2 .inner {
     height: 600px;
   }
   
-  #theme .theme__title {
+  .visual.visual2 .title {
     max-width: 100%;
     padding-top: 20px;
   }
