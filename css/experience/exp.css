@@ -168,3 +168,110 @@ br.only-m::after {
   margin: 0 auto;
   padding-top: 90px;
 }
+
+/* THEME */
+#theme {
+  background-color: #fff;
+  text-align: center;
+}
+
+#theme .inner {
+  padding: 100px 0;
+}
+
+#theme .theme__title {
+  font-size: 48px;
+  color: #1ecad3;
+}
+
+#theme .theme__description {
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  color: #3d464b;
+  padding: 30px 0 100px 0;
+}
+
+#theme .theme__menu {
+  display: flex;
+  justify-content: center;
+}
+
+#theme .theme__menu li {
+  margin: 0 15px;
+}
+
+#theme .theme__menu li:nth-child(1).selected button {
+  background-color: #8592ef;
+}
+#theme .theme__menu li:nth-child(2).selected button {
+  background-color: #1ecad3;
+}
+#theme .theme__menu li:nth-child(3).selected button {
+  background-color: #edac91;
+}
+
+#theme .theme__menu li button {
+  width: 260px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #cbcccd;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+#theme .theme__menu li button span {
+  font-weight: 700;
+}
+
+#theme .theme__content {
+  display: flex;
+  margin: 100px 0;
+}
+
+#theme .theme__content .left {
+  flex-basis: 60%;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 400;
+  color: #545759;
+}
+
+#theme .theme__content .left .version {
+  color: #fff;
+  background-color: #8592ef;
+  font-size: 30px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  max-width: 520px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#theme .theme__content .left .version span::after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: -4px;
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+  background: url("../../img/experience/theme_title.png") no-repeat center/cover;
+}
+
+#theme .theme__content .left .title {
+  font-size: 56px;
+  letter-spacing: -0.1em;
+  line-height: 1.3;
+  margin: 50px 0;
+}
+
+#theme .theme__content .left .title em {
+  font-weight: 500;
+}
+
+#theme .theme__content .right {
+  flex-basis: 40%;
+}
