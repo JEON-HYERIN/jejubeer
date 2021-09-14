@@ -487,3 +487,41 @@ br.only-m::after {
   color: #ef8470;
 }
 
+/* TOGETHER */
+#together {
+  background-color: #fff;
+  color: #3d464b;
+  text-align: center;
+}
+
+#together .inner {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#together .together__title {
+  font-size: 48px;
+}
+
+#together .together__description {
+  font-size: 26px;
+  padding: 60px 0;
+}
+
+#together .together__links {
+  display: flex;
+  justify-content: center;
+}
+
+#together .together__links li .btn {
+  background-color: #3d464b;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#together .together__links li ~ li {
+  margin-left: 40px;
+}
