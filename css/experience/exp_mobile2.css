@@ -216,4 +216,37 @@
   #question-and-answer dl::after {
     display: none;
   }
+
+  /* TOGETHER */
+  #together .inner {
+    padding: 50px 0;
+  }
+
+  #together .together__title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  #together .together__description {
+    font-size: 17px;
+    padding: 40px 0;
+  }
+
+  #together .together__links li .btn {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* NOTICE */
+  #notice .inner {
+    padding: 50px 0;
+  }
+
+  #notice .notice__title {
+    font-size: 17px;
+  }
+
+  #notice .notice__description {
+    font-size: 15px;
+  }
 }
