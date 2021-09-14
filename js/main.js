@@ -42,7 +42,11 @@ shareEl.addEventListener('click', function () {
 
 // url버튼 클릭시 alert 실행
 const urlBtn = shareEl.querySelector('.url-btn');
+const urlBtn2 = document.querySelector('#together .url-btn');
 urlBtn.addEventListener('click', function() {
+  alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
+});
+urlBtn2.addEventListener('click', function() {
   alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
 });
 
