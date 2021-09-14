@@ -112,6 +112,31 @@ inquiryHours.addEventListener('click', function () {
   inquiryHoursOpen.classList.toggle('open');
 });
 
+// 테마메뉴 필터링
+const themeMenu = document.querySelector('.theme__menu');
+const themeContents = document.querySelectorAll('.theme__content');
+
+themeMenu.addEventListener('click', function (event) {
+  const filter = event.target.dataset.filter || event.target.parentElement.dataset.filter;
+  console.dir(event.target)
+  if (filter === null || filter === undefined) {
+    return;
+  }
+
+    themeContents.forEach(function (themeContent) {
+      if (filter === themeContent.dataset.type) {
+        themeContent.classList.remove('invisible');
+      } else {
+        themeContent.classList.add('invisible');
+      }
+
+      const themeMenuBtn = themeMenu.querySelector('button.selected');
+      if(themeMenuBtn !== null) {
+        themeMenuBtn.classList.remove('selected');
+      } event.target.classList.add('selected');
+    });
+});
+
 // 메뉴버튼 활성화
 // const mainMenu = document.querySelector('#header ul.main-menu');
 // const active = mainMenu.querySelector('li.active');

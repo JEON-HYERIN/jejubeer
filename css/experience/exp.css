@@ -201,13 +201,13 @@ br.only-m::after {
   margin: 0 15px;
 }
 
-#theme .theme__menu li:nth-child(1).selected button {
+#theme .theme__menu li:nth-child(1) button.selected {
   background-color: #8592ef;
 }
-#theme .theme__menu li:nth-child(2).selected button {
+#theme .theme__menu li:nth-child(2) button.selected {
   background-color: #1ecad3;
 }
-#theme .theme__menu li:nth-child(3).selected button {
+#theme .theme__menu li:nth-child(3) button.selected {
   background-color: #edac91;
 }
 
@@ -229,11 +229,10 @@ br.only-m::after {
   display: flex;
   justify-content: space-between;
   margin: 100px 0;
-  display: none;
 }
 
-#theme .theme__content.selected {
-  display: flex;
+#theme .theme__content.invisible {
+  display: none;
 }
 
 #theme .theme__content .content {
