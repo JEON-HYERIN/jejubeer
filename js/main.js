@@ -4,11 +4,11 @@ thisYear.textContent = new Date().getFullYear();
 
 // 상단버튼(top-btn)
 const header = document.querySelector('#header');
-const videoHeight = video.getBoundingClientRect().height;
+const headerHeight = header.getBoundingClientRect().height;
 const topBtn = document.querySelector('.floating-btns .top-btn');
 
 window.addEventListener('scroll', () => {
-  if(window.scrollY > videoHeight / 2) {
+  if(window.scrollY > headerHeight * 1.5) {
     topBtn.classList.remove('hidden');
   } else {
     topBtn.classList.add('hidden');
@@ -111,29 +111,4 @@ const inquiryHoursOpen = inquiryEl.querySelector('.business-hours');
 inquiryHours.addEventListener('click', function () {
   inquiryHoursOpen.classList.toggle('open');
 });
-
-// 메뉴버튼 활성화
-// const mainMenu = document.querySelector('#header ul.main-menu');
-// const active = mainMenu.querySelector('li.active');
-// mainMenu.addEventListener('click', function (event) {
-//   if (active !== null) {
-//     active.classList.remove('active');
-//     console.log(event.target)
-//   }
-//   console.log(event.target)
-//   event.target.classList.add('active');
-// });
-
-// 비디오 모바일버전으로 변경
-// const videoEl = document.querySelector('#video video');
-// const moSrc = './video/jb_tvc_event_mo.mp4';
-// const webSrc = './video/jb_tvc_event_web.mp4';
-
-// window.addEventListener('resize', function () {
-//   if (window.innerWidth < 768) {
-//     videoEl.setAttribute('src', moSrc);
-//   } else {
-//     videoEl.setAttribute('src', webSrc);
-//   }
-// });
 
