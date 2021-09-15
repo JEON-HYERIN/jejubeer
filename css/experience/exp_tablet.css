@@ -150,6 +150,10 @@
     display: none;
   }
 
+  #question-and-answer dl dt {
+    font-size: 17px;
+  }
+
   /* TOGETHER */
   #together .inner {
     padding: 50px 15px;
