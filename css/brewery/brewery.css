@@ -181,7 +181,12 @@ br.only-pc {
   font-weight: 400;
 }
 
-#information .ask .description .text {
+/* #information .ask .description .text {
+  font-size: 18px;
+  font-weight: 700;
+} */
+
+#information .ask .description .text span.type {
   font-size: 18px;
   font-weight: 700;
 }
@@ -208,9 +213,73 @@ br.only-pc {
   font-weight: 400;
 }
 
-#information .ask .description .text.text2 span.type {
-  font-weight: 700;
-  font-size: 18px;
+/* 미디어쿼리 */
+@media screen and (max-width: 1023.9px) {
+  /* COMMON */
+  .pc {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+
+  br.only-m,
+  br.only-m::after {
+    content: normal;
+  }
+
+  br.only-pc {
+    content: '';
+  }
+  
+  br.only-pc::after {
+    content: '\00a0';
+  }
+
+  /* INFORMATION */
+  #information .inner {
+    padding: 30px 15px;
+  }
+
+  #information .information__title {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+
+  #information .info {
+    flex-direction: column;
+  }
+
+  #information .info > div {
+    padding: 0;
+  }
+
+  #information .info .title {
+    font-size: 16px;
+  }
+
+  #information .info .business-day .description .text.text1 em {
+    font-size: 17px;
+  }
+
+  #information .info .business-day .description .text.text1 span {
+    font-size: 15px;
+  }
+
+  #information .service .description {
+    font-size: 13px;
+  }
+
+  #information .service .description .text span.place {
+    font-size: 16px;
+  }
+
+  #information .ask .description .text span.type {
+    font-size: 16px;
+  }
+
+  #information .ask .description .text.text2 {
+    font-size: 13px;
+  }
 }
-
-
