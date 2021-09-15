@@ -164,6 +164,16 @@ br.only-pc {
   width: 100%;
 }
 
+#header .toggle-btn {
+  position: absolute;
+  top: 5px; 
+  right: 10px;
+  color: #1ecad3;
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+}
+
 #header nav ul.main-menu {
   display: flex;
   padding-top: 10px;
@@ -226,16 +236,6 @@ br.only-pc {
   font-weight: 700;
   background-color: #1ecad3;
   color: #fff;
-}
-
-#header .toggle-btn {
-  position: absolute;
-  top: 5px; 
-  right: 10px;
-  color: #1ecad3;
-  font-size: 25px;
-  display: none;
-  cursor: pointer;
 }
 
 /* VIDEO */
