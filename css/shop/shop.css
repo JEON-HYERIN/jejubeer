@@ -37,6 +37,10 @@ br.only-pc {
   position: relative;
 }
 
+#shop .shop__items .item img {
+  width: 100%;
+}
+
 #shop .shop__items .item .text-group {
   position: absolute;
   top: 30px;
@@ -50,7 +54,7 @@ br.only-pc {
 
 #shop .shop__items .item .text-group .title {
   font-size: 26px;
-  margin: 5px 0 20px 0;
+  margin: 5px 0 10px 0;
   font-weight: 400;
 }
 
@@ -59,6 +63,17 @@ br.only-pc {
   font-weight: 700;
 }
 
-#shop .shop__items .item .text-group .description::before {
-  content: '\';
+/* 미디어쿼리 */
+@media screen and (max-width: 1023.9px) {
+  #shop .shop__items {
+    flex-direction: column;
+  }
+
+  #shop .shop__items .item .text-group .title {
+    font-size: 20px;
+  }
+
+  #shop .shop__items .item .text-group .description {
+    font-size: 24px;
+  }
 }
