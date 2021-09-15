@@ -103,9 +103,9 @@
       <video src="./video/brewery_mo.mp4" class="mobile" autoplay muted loop preload="metadata"
         playsinline></video>
 
-      <h3 class="video__title">
-        BREWERY<br />제주맥주 양조장
-      </h3>
+      <div class="video__title">
+        <span>BREWERY</span><br /><em>제주맥주 양조장</em>
+      </div>
     </section>
 
     <!-- PROGRAM -->
@@ -115,7 +115,7 @@
 
         <div class="text-group">
           <p class="text text1">
-            좋은 맥주로, 맥주의 깊이를 알고,<br />
+            좋은 맥주로, 맥주의 깊이를 알고,<br class="only-m" />
             제대로 맥주를 즐기는<br />
             맥주 미식 문화를 만들어 나가는 일
           </p>
@@ -127,21 +127,26 @@
 
         <h3 class="program__title">PROGRAM</h3>
         <p class="program__description">
-          우리나라에 없던 새로운 문화,<br />
+          우리나라에 없던 새로운 문화,<br class="only-m" />
           제주맥주 양조장에서 경험해보세요.</p>
         <div class="program__content">
           <div class="tour">
             <img src="./img/brewery/program1.png" alt="" />
-            <div class="title">양조장 투어</div>
-            <p class="description">22,000원</p>
+            <div class="text-group">
+              <div class="title">양조장 투어</div>
+              <p class="description">22,000원</p>
+            </div>
+
           </div>
           <div class="experience">
             <img src="./img/brewery/program2.jpg" alt="" />
-            <div class="title">나만의 전용잔</div>
-            <p class="description">12,000원</p>
+            <div class="text-group">
+              <div class="title">나만의 전용잔</div>
+              <p class="description">12,000원</p>
+            </div>
           </div>
         </div>
-
+        <a href="javascript:void(0)" class="btn">더보기</a>
       </div>
     </section>
 
@@ -159,7 +164,7 @@
             <div class="description">
               <p class="text text1">
                 <em>매일 12:30 - 19:30</em><br />
-                (설날 & 추석 전 날, 당일 휴무)
+                <span>(설날 & 추석 전 날, 당일 휴무)</span>
               </p>
               <p class="text text2">
                 <span class="place">양조장 PUB</span>
@@ -181,7 +186,7 @@
               <p class="text text2">
                 <span class="place">양조장 투어 / 체험 프로그램</span><br />
                 <em>: 사전예약 필수</em><br />
-                <span>예약은 홈페이지를 통해서만 가능합니다.
+                <span>예약은 홈페이지를 통해서만 가능합니다.<br />
                   (전화 예약 불가)</span>
               </p>
             </div>
@@ -190,14 +195,14 @@
             <div class="title">문의</div>
             <div class="description">
               <p class="text text1">
-                <span>채팅상담</span>
+                <span class="type">채팅상담</span>
                 <img src="./img/brewery/link1.png" alt="카카오톡" />
                 <img src="./img/brewery/link2.png" alt="채널톡" />
               </p>
-              <p class="text text1">
-                <span>전화상담</span><br />
-                064 - 798 - 9872<br />
-                * 오후 6시부터 오전 11시까지는 전화연결이 어렵습니다.
+              <p class="text text2">
+                <span class="type">전화상담</span><br />
+                <span>064 - 798 - 9872</span><br />
+              <span>* 오후 6시부터 오전 11시까지는 전화연결이 어렵습니다.</span>
               </p>
             </div>
           </div>

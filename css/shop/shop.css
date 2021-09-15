@@ -20,8 +20,6 @@ br.only-pc {
 }
 
 /* SHOP */
-#shop {}
-
 #shop .inner {
   overflow: hidden;
 }
@@ -65,6 +63,28 @@ br.only-pc {
 
 /* 미디어쿼리 */
 @media screen and (max-width: 1023.9px) {
+  /* COMMON */
+  .pc {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+
+  br.only-m,
+  br.only-m::after {
+    content: normal;
+  }
+
+  br.only-pc {
+    content: '';
+  }
+  
+  br.only-pc::after {
+    content: '\00a0';
+  }
+  
   #shop .shop__items {
     flex-direction: column;
   }
