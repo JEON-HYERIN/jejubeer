@@ -124,7 +124,7 @@ br.only-pc {
 
 #information .information__title {
   font-size: 24px;
-  padding-bottom: 30px;
+  padding: 0 0 30px 15px;
 }
 
 #information .info {
@@ -292,6 +292,7 @@ br.only-pc {
   #information .information__title {
     font-size: 16px;
     padding-bottom: 15px;
+    padding-left: 0;
   }
 
   #information .info {
