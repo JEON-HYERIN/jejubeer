@@ -32,6 +32,7 @@ br.only-pc {
   color: #fff;
   text-align: center;
   padding: 0;
+  width: 100%;
 }
 
 #video .video__title span {
@@ -65,7 +66,6 @@ br.only-pc {
 #program .program__title {
   font-size: 29px;
   color: #1ecad3;
-  padding: 0 30px;
   position: relative;
   background-color: #fff;
 }
@@ -89,6 +89,7 @@ br.only-pc {
 
 #program .program__content img {
   min-height: 590px;
+  width: 100%;
 }
 
 #program .program__content .text-group {
@@ -213,6 +214,7 @@ br.only-pc {
   font-weight: 400;
 }
 
+
 /* 미디어쿼리 */
 @media screen and (max-width: 1023.9px) {
   /* COMMON */
@@ -235,6 +237,51 @@ br.only-pc {
   
   br.only-pc::after {
     content: '\00a0';
+  }
+
+  /* VIDEO */
+  #video .video__title span {
+    font-size: 12px;
+  }
+
+  #video .video__title em {
+    font-size: 25px;
+  }
+
+  /* PROGRAM */
+  #program .inner {
+    padding: 30px 0;
+  }
+
+  #program .text-group {
+    font-size: 17px;
+  }
+
+  #program .text-group .text.text2 {
+    padding-bottom: 30px;
+  }
+
+  #program .program__description {
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  #program .program__content {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  #program .program__content img {
+    min-height: 0;
+  }
+
+  #program .program__content .text-group .title {
+    font-size: 15px;
+  }
+
+  #program .program__content .text-group .description {
+    font-size: 13px;
   }
 
   /* INFORMATION */
@@ -281,5 +328,23 @@ br.only-pc {
 
   #information .ask .description .text.text2 {
     font-size: 13px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023.9px) {
+  #video video.pc {
+    display: block !important;
+  }
+
+  #video video.mobile {
+    display: none !important;
+  }
+
+  #video .video__title span {
+    font-size: 24px;
+  }
+  
+  #video .video__title em {
+    font-size: 45px;
   }
 }
